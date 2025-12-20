@@ -13,7 +13,16 @@ function playSound(soundId, loudness)
     sound:Play()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/load.lua", true))()
+-- CARREGAR A MÚSICA E OBTER O BPM
+local songData = loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/load.lua", true))()
+
+-- Extrair BPM da música carregada (se disponível)
+local initialBpm = 120 -- BPM padrão
+if songData and songData.bpm then
+    initialBpm = songData.bpm
+elseif _G.SONG_BPM then
+    initialBpm = _G.SONG_BPM
+end
 
 -- GUI PRETO E BRANCO
 local ScreenGui = Instance.new("ScreenGui")
@@ -153,7 +162,7 @@ BpmText.BorderSizePixel = 0
 BpmText.Position = UDim2.new(0, 25, 0, 0)
 BpmText.Size = UDim2.new(0, 70, 1, 0)
 BpmText.Font = Enum.Font.GothamBold
-BpmText.Text = "BPM: 120"
+BpmText.Text = "BPM: " .. tostring(initialBpm)
 BpmText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BpmText.TextScaled = true
 BpmText.TextSize = 14
@@ -391,12 +400,12 @@ UserInputService.InputChanged:Connect(function(input)
     end
 end)
 
--- VARIÁVEIS GLOBAIS
+-- VARIÁVEIS GLOBAIS (USANDO BPM INICIAL)
 local song = {}
 local songThread = nil
 local finishedLoading = false
 local pausing = false
-local bpm = 120
+local bpm = initialBpm -- USANDO BPM DA MÚSICA
 local errormargin = 0
 local currentSongPosition = 0
 local totalSongBeats = 0
@@ -477,7 +486,7 @@ DownErrorButton.MouseButton1Click:Connect(function()
     updateErrorText()
 end)
 
--- FUNÇÕES DE MÚSICA COMPLETAS (RESTAURADAS)
+-- FUNÇÕES DE MÚSICA COMPLETAS
 local VirtualInputManager = game:GetService("VirtualInputManager")
 
 local shiftKeys = {
@@ -779,10 +788,10 @@ function finishedSong()
     finishedLoading = true
 end
 
--- INICIALIZAÇÃO
+-- INICIALIZAÇÃO COM BPM CORRETO
 updateBpmText()
 updateErrorText()
-updateStatus("Pronto - Lúcifer Scripts")
+updateStatus("Pronto - Lúcifer Scripts (BPM: " .. tostring(initialBpm) .. ")")
 
 -- LOOP PRINCIPAL COMPLETO
 _G.STOPIT = false
