@@ -199,7 +199,7 @@ DownBpmCorner.Name = "DownBpmCorner"
 DownBpmCorner.Parent = DownBpmButton
 DownBpmCorner.CornerRadius = UDim.new(0, 3)
 
--- CONTAINER ERROR MARGIN
+-- CONTAINER MARGEM DE ERRO
 local ErrorContainer = Instance.new("Frame")
 ErrorContainer.Name = "ErrorContainer"
 ErrorContainer.Parent = ControlContainer
@@ -215,7 +215,7 @@ ErrorCorner.Name = "ErrorCorner"
 ErrorCorner.Parent = ErrorContainer
 ErrorCorner.CornerRadius = UDim.new(0, 8)
 
--- TEXTO ERROR MARGIN
+-- TEXTO MARGEM DE ERRO
 local ErrorText = Instance.new("TextLabel")
 ErrorText.Name = "ErrorText"
 ErrorText.Parent = ErrorContainer
@@ -225,13 +225,13 @@ ErrorText.BorderSizePixel = 0
 ErrorText.Position = UDim2.new(0, 35, 0, 0)
 ErrorText.Size = UDim2.new(0, 80, 1, 0)
 ErrorText.Font = Enum.Font.GothamBold
-ErrorText.Text = "Error: 0.00"
+ErrorText.Text = "Erro: 0.00"
 ErrorText.TextColor3 = Color3.fromRGB(255, 255, 255)
 ErrorText.TextScaled = true
 ErrorText.TextSize = 12
 ErrorText.TextWrapped = true
 
--- BOTÃO AUMENTAR ERROR
+-- BOTÃO AUMENTAR ERRO
 local UpErrorButton = Instance.new("TextButton")
 UpErrorButton.Name = "UpErrorButton"
 UpErrorButton.Parent = ErrorContainer
@@ -245,13 +245,13 @@ UpErrorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 UpErrorButton.TextScaled = true
 UpErrorButton.ZIndex = 13
 
--- CORNER DO BOTÃO AUMENTAR ERROR
+-- CORNER DO BOTÃO AUMENTAR ERRO
 local UpErrorCorner = Instance.new("UICorner")
 UpErrorCorner.Name = "UpErrorCorner"
 UpErrorCorner.Parent = UpErrorButton
 UpErrorCorner.CornerRadius = UDim.new(0, 3)
 
--- BOTÃO DIMINUIR ERROR
+-- BOTÃO DIMINUIR ERRO
 local DownErrorButton = Instance.new("TextButton")
 DownErrorButton.Name = "DownErrorButton"
 DownErrorButton.Parent = ErrorContainer
@@ -265,7 +265,7 @@ DownErrorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 DownErrorButton.TextScaled = true
 DownErrorButton.ZIndex = 13
 
--- CORNER DO BOTÃO DIMINUIR ERROR
+-- CORNER DO BOTÃO DIMINUIR ERRO
 local DownErrorCorner = Instance.new("UICorner")
 DownErrorCorner.Name = "DownErrorCorner"
 DownErrorCorner.Parent = DownErrorButton
@@ -345,7 +345,7 @@ StatusText.BorderSizePixel = 0
 StatusText.Position = UDim2.new(0, 20, 0, 170)
 StatusText.Size = UDim2.new(0, 360, 0, 30)
 StatusText.Font = Enum.Font.Gotham
-StatusText.Text = "🎹 Lúcifer Scripts - Ready to Play"
+StatusText.Text = "🎹 Lúcifer Scripts - Pronto para Tocar"
 StatusText.TextColor3 = Color3.fromRGB(200, 200, 255)
 StatusText.TextScaled = true
 StatusText.TextSize = 14
@@ -427,7 +427,7 @@ local function updateBpmText()
 end
 
 local function updateErrorText()
-    ErrorText.Text = "Error: " .. string.format("%.2f", errormargin)
+    ErrorText.Text = "Erro: " .. string.format("%.2f", errormargin)
 end
 
 local function updateStatus(text)
@@ -447,10 +447,10 @@ local function pauseSong()
     pausing = not pausing
     if pausing then
         PauseButton.Image = "http://www.roblox.com/asset/?id=130610056660845"
-        updateStatus("Paused - Lúcifer Scripts")
+        updateStatus("Pausado - Lúcifer Scripts")
     else
         PauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
-        updateStatus("Playing - Lúcifer Scripts")
+        updateStatus("Tocando - Lúcifer Scripts")
     end
 end
 
@@ -459,11 +459,18 @@ local function stopSong()
     songisplaying = false
     pausing = false
     PauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
-    updateStatus("Stopped - Lúcifer Scripts")
+    updateStatus("Parado - Lúcifer Scripts")
     ProgressFill:TweenSize(UDim2.new(0, 0, 1, 0), "Out", "Quad", 0.3)
     Playhead:TweenPosition(UDim2.new(0, -8, 0.5, -8), "Out", "Quad", 0.3)
     playSound("18595195017", 0.5)
-    NotificationLibrary:SendNotification("Success", "Song stopped", 1)
+    NotificationLibrary:SendNotification("Sucesso", "Música parada", 1)
+    
+    -- FECHAR A GUI APÓS PARAR
+    task.wait(0.5)
+    if ScreenGui then
+        ScreenGui:Destroy()
+        ScreenGui = nil
+    end
 end
 
 -- EVENTOS DOS BOTÕES
@@ -556,7 +563,7 @@ end
 -- INICIALIZAÇÃO
 updateBpmText()
 updateErrorText()
-updateStatus("Ready - Lúcifer Scripts")
+updateStatus("Pronto - Lúcifer Scripts")
 
 -- LOOP PRINCIPAL OTIMIZADO
 _G.STOPIT = false
@@ -573,7 +580,7 @@ songThread = task.spawn(function()
     end
     
     currentSongPosition = 0
-    updateStatus("Playing - Lúcifer Scripts")
+    updateStatus("Tocando - Lúcifer Scripts")
     songisplaying = true
     
     for i = 1, #song do
@@ -593,9 +600,9 @@ songThread = task.spawn(function()
             currentSongPosition = currentSongPosition + action.beats
             updateProgress()
         elseif action.type == "finishedSong" then
-            updateStatus("Song Finished - Lúcifer Scripts")
+            updateStatus("Música Finalizada - Lúcifer Scripts")
             playSound("18595195017", 0.5)
-            NotificationLibrary:SendNotification("Success", "Song completed!", 3)
+            NotificationLibrary:SendNotification("Sucesso", "Música concluída!", 3)
             songisplaying = false
             break
         end
