@@ -10,8 +10,18 @@
     "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/c0ca6b276806fcc06c12903706d9e494/raw/custom_song.lua"
   },
   {
-    "name": "Outra Musica Qualquer",
-    "bpm": 120,
-    "url": "https://raw.githubusercontent.com/usuario/repositorio/main/outra_musica.lua"
+    "name": "Hoist the colours",
+    "bpm": 155,
+    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/149bdea9980bd27a3688e2b323c6e175/raw/custom_song.lua"
+  },
+  {
+    "name": "Já que me ensinou a beber",
+    "bpm": 85,
+    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/e23ca43f76b81ad643994ce44b7d2860/raw/custom_song.lua"
+  },
+  {
+    "name": "The Walking Dead",
+    "bpm": 195,
+    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/4b4a3a6af659a6414a0d762b53eea996/raw/custom_song.lua"
   }
 ]
