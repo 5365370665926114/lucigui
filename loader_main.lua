@@ -15,7 +15,7 @@ end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/load.lua", true))()
 
--- GUI OTIMIZADA PARA ROBLOX
+-- GUI PRETO E BRANCO
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "LuciferScriptsGUI"
 ScreenGui.Parent = game:GetService("CoreGui")
@@ -27,8 +27,8 @@ local MainFrame = Instance.new("Frame")
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = ScreenGui
 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-MainFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
-MainFrame.BorderColor3 = Color3.fromRGB(138, 43, 226)
+MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+MainFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BorderSizePixel = 2
 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 MainFrame.Size = UDim2.new(0, 400, 0, 220)
@@ -44,7 +44,7 @@ MainCorner.CornerRadius = UDim.new(0, 20)
 local TitleBar = Instance.new("Frame")
 TitleBar.Name = "TitleBar"
 TitleBar.Parent = MainFrame
-TitleBar.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+TitleBar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 TitleBar.BorderSizePixel = 0
 TitleBar.Position = UDim2.new(0, 0, 0, 0)
 TitleBar.Size = UDim2.new(1, 0, 0, 45)
@@ -77,7 +77,7 @@ TitleLabel.TextXAlignment = Enum.TextXAlignment.Left
 local ControlContainer = Instance.new("Frame")
 ControlContainer.Name = "ControlContainer"
 ControlContainer.Parent = MainFrame
-ControlContainer.BackgroundColor3 = Color3.fromRGB(30, 30, 45)
+ControlContainer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 ControlContainer.BorderSizePixel = 0
 ControlContainer.Position = UDim2.new(0, 10, 0, 55)
 ControlContainer.Size = UDim2.new(1, -20, 0, 60)
@@ -93,9 +93,9 @@ ControlCorner.CornerRadius = UDim.new(0, 15)
 local PauseButton = Instance.new("ImageButton")
 PauseButton.Name = "PauseButton"
 PauseButton.Parent = ControlContainer
-PauseButton.BackgroundColor3 = Color3.fromRGB(75, 75, 100)
+PauseButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 PauseButton.BackgroundTransparency = 0.1
-PauseButton.BorderColor3 = Color3.fromRGB(138, 43, 226)
+PauseButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
 PauseButton.BorderSizePixel = 1
 PauseButton.Position = UDim2.new(0, 10, 0, 10)
 PauseButton.Size = UDim2.new(0, 40, 0, 40)
@@ -112,9 +112,9 @@ PauseCorner.CornerRadius = UDim.new(0, 8)
 local StopButton = Instance.new("ImageButton")
 StopButton.Name = "StopButton"
 StopButton.Parent = ControlContainer
-StopButton.BackgroundColor3 = Color3.fromRGB(75, 75, 100)
+StopButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 StopButton.BackgroundTransparency = 0.1
-StopButton.BorderColor3 = Color3.fromRGB(138, 43, 226)
+StopButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
 StopButton.BorderSizePixel = 1
 StopButton.Position = UDim2.new(0, 60, 0, 10)
 StopButton.Size = UDim2.new(0, 40, 0, 40)
@@ -131,7 +131,7 @@ StopCorner.CornerRadius = UDim.new(0, 8)
 local BpmContainer = Instance.new("Frame")
 BpmContainer.Name = "BpmContainer"
 BpmContainer.Parent = ControlContainer
-BpmContainer.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+BpmContainer.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 BpmContainer.BorderSizePixel = 0
 BpmContainer.Position = UDim2.new(0, 120, 0, 10)
 BpmContainer.Size = UDim2.new(0, 120, 0, 40)
@@ -163,13 +163,13 @@ BpmText.TextWrapped = true
 local UpBpmButton = Instance.new("TextButton")
 UpBpmButton.Name = "UpBpmButton"
 UpBpmButton.Parent = BpmContainer
-UpBpmButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+UpBpmButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 UpBpmButton.BorderSizePixel = 0
 UpBpmButton.Position = UDim2.new(0, 5, 0, 5)
 UpBpmButton.Size = UDim2.new(0, 15, 0, 15)
 UpBpmButton.Font = Enum.Font.GothamBold
 UpBpmButton.Text = "▲"
-UpBpmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpBpmButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 UpBpmButton.TextScaled = true
 UpBpmButton.ZIndex = 13
 
@@ -183,13 +183,13 @@ UpBpmCorner.CornerRadius = UDim.new(0, 3)
 local DownBpmButton = Instance.new("TextButton")
 DownBpmButton.Name = "DownBpmButton"
 DownBpmButton.Parent = BpmContainer
-DownBpmButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+DownBpmButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DownBpmButton.BorderSizePixel = 0
 DownBpmButton.Position = UDim2.new(0, 5, 0, 20)
 DownBpmButton.Size = UDim2.new(0, 15, 0, 15)
 DownBpmButton.Font = Enum.Font.GothamBold
 DownBpmButton.Text = "▼"
-DownBpmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DownBpmButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 DownBpmButton.TextScaled = true
 DownBpmButton.ZIndex = 13
 
@@ -203,7 +203,7 @@ DownBpmCorner.CornerRadius = UDim.new(0, 3)
 local ErrorContainer = Instance.new("Frame")
 ErrorContainer.Name = "ErrorContainer"
 ErrorContainer.Parent = ControlContainer
-ErrorContainer.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+ErrorContainer.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 ErrorContainer.BorderSizePixel = 0
 ErrorContainer.Position = UDim2.new(0, 250, 0, 10)
 ErrorContainer.Size = UDim2.new(0, 130, 0, 40)
@@ -235,13 +235,13 @@ ErrorText.TextWrapped = true
 local UpErrorButton = Instance.new("TextButton")
 UpErrorButton.Name = "UpErrorButton"
 UpErrorButton.Parent = ErrorContainer
-UpErrorButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+UpErrorButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 UpErrorButton.BorderSizePixel = 0
 UpErrorButton.Position = UDim2.new(0, 5, 0, 5)
 UpErrorButton.Size = UDim2.new(0, 15, 0, 15)
 UpErrorButton.Font = Enum.Font.GothamBold
 UpErrorButton.Text = "▲"
-UpErrorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpErrorButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 UpErrorButton.TextScaled = true
 UpErrorButton.ZIndex = 13
 
@@ -255,13 +255,13 @@ UpErrorCorner.CornerRadius = UDim.new(0, 3)
 local DownErrorButton = Instance.new("TextButton")
 DownErrorButton.Name = "DownErrorButton"
 DownErrorButton.Parent = ErrorContainer
-DownErrorButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+DownErrorButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DownErrorButton.BorderSizePixel = 0
 DownErrorButton.Position = UDim2.new(0, 5, 0, 20)
 DownErrorButton.Size = UDim2.new(0, 15, 0, 15)
 DownErrorButton.Font = Enum.Font.GothamBold
 DownErrorButton.Text = "▼"
-DownErrorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DownErrorButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 DownErrorButton.TextScaled = true
 DownErrorButton.ZIndex = 13
 
@@ -275,7 +275,7 @@ DownErrorCorner.CornerRadius = UDim.new(0, 3)
 local ProgressContainer = Instance.new("Frame")
 ProgressContainer.Name = "ProgressContainer"
 ProgressContainer.Parent = MainFrame
-ProgressContainer.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
+ProgressContainer.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 ProgressContainer.BorderSizePixel = 0
 ProgressContainer.Position = UDim2.new(0, 20, 0, 130)
 ProgressContainer.Size = UDim2.new(0, 360, 0, 30)
@@ -291,7 +291,7 @@ ProgressCorner.CornerRadius = UDim.new(0, 15)
 local ProgressBar = Instance.new("Frame")
 ProgressBar.Name = "ProgressBar"
 ProgressBar.Parent = ProgressContainer
-ProgressBar.BackgroundColor3 = Color3.fromRGB(30, 30, 45)
+ProgressBar.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 ProgressBar.BorderSizePixel = 0
 ProgressBar.Position = UDim2.new(0, 5, 0, 5)
 ProgressBar.Size = UDim2.new(0, 350, 0, 20)
@@ -307,7 +307,7 @@ ProgressBgCorner.CornerRadius = UDim.new(0, 10)
 local ProgressFill = Instance.new("Frame")
 ProgressFill.Name = "ProgressFill"
 ProgressFill.Parent = ProgressBar
-ProgressFill.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+ProgressFill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ProgressFill.BorderSizePixel = 0
 ProgressFill.Position = UDim2.new(0, 0, 0, 0)
 ProgressFill.Size = UDim2.new(0, 0, 1, 0)
@@ -346,27 +346,10 @@ StatusText.Position = UDim2.new(0, 20, 0, 170)
 StatusText.Size = UDim2.new(0, 360, 0, 30)
 StatusText.Font = Enum.Font.Gotham
 StatusText.Text = "🎹 Lúcifer Scripts - Pronto para Tocar"
-StatusText.TextColor3 = Color3.fromRGB(200, 200, 255)
+StatusText.TextColor3 = Color3.fromRGB(200, 200, 200)
 StatusText.TextScaled = true
 StatusText.TextSize = 14
 StatusText.TextWrapped = true
-
--- EFEITO DE BRILHO
-local GlowEffect = Instance.new("Frame")
-GlowEffect.Name = "GlowEffect"
-GlowEffect.Parent = MainFrame
-GlowEffect.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
-GlowEffect.BorderSizePixel = 0
-GlowEffect.Position = UDim2.new(0, -10, 0, -10)
-GlowEffect.Size = UDim2.new(1, 20, 1, 20)
-GlowEffect.BackgroundTransparency = 0.85
-GlowEffect.ZIndex = 8
-
--- CORNER DO BRILHO
-local GlowCorner = Instance.new("UICorner")
-GlowCorner.Name = "GlowCorner"
-GlowCorner.Parent = GlowEffect
-GlowCorner.CornerRadius = UDim.new(0, 25)
 
 -- SISTEMA DE DRAG OTIMIZADO
 local UserInputService = game:GetService("UserInputService")
@@ -382,7 +365,6 @@ MainFrame.InputBegan:Connect(function(input)
         dragStart = input.Position
         startPos = MainFrame.Position
         
-        -- Animação de feedback
         local tween = TweenService:Create(MainFrame, TweenInfo.new(0.1), {Size = UDim2.new(0, 410, 0, 230)})
         tween:Play()
     end
@@ -392,7 +374,6 @@ MainFrame.InputEnded:Connect(function(input)
     if input.UserInputType == Enum.UserInputType.MouseButton1 then
         dragging = false
         
-        -- Animação de feedback
         local tween = TweenService:Create(MainFrame, TweenInfo.new(0.1), {Size = UDim2.new(0, 400, 0, 220)})
         tween:Play()
     end
@@ -465,7 +446,6 @@ local function stopSong()
     playSound("18595195017", 0.5)
     NotificationLibrary:SendNotification("Sucesso", "Música parada", 1)
     
-    -- FECHAR A GUI APÓS PARAR
     task.wait(0.5)
     if ScreenGui then
         ScreenGui:Destroy()
@@ -497,8 +477,15 @@ DownErrorButton.MouseButton1Click:Connect(function()
     updateErrorText()
 end)
 
--- FUNÇÕES DE MÚSICA (OTIMIZADAS)
+-- FUNÇÕES DE MÚSICA COMPLETAS (RESTAURADAS)
 local VirtualInputManager = game:GetService("VirtualInputManager")
+
+local shiftKeys = {
+    "!","@","#","$","%","^","&","*","(",")",
+    "Q","W","E","R","T","Y","U","I","O","P",
+    "A","S","D","F","G","H","J","K","L","Z",
+    "X","C","V","B","N","M"
+}
 
 local keyMappings = {
     ["1"] = Enum.KeyCode.One, ["!"] = Enum.KeyCode.One, ["2"] = Enum.KeyCode.Two, ["@"] = Enum.KeyCode.Two,
@@ -521,20 +508,176 @@ local keyMappings = {
     ["n"] = Enum.KeyCode.N, ["N"] = Enum.KeyCode.N, ["m"] = Enum.KeyCode.M, ["M"] = Enum.KeyCode.M
 }
 
+-- FUNÇÃO PRESSKEY COMPLETA
 local function pressKey(keys, beats, bpm)
     if _G.STOPIT then return end
-    
+
+    local shiftApplied = false
+    local unshiftApplied = false
+    local shorts
+
+    if type(beats) == "number" then
+        shorts = false
+    else
+        shorts = true
+    end
+
+    local shiftRequired, nonShift = {}, {}
+    local ctrlRequired = false
+
+    if keys:sub(1, 5) == "Ctrl+" then
+        ctrlRequired = true
+        keys = keys:sub(6)
+    end
+
     for i = 1, #keys do
         local key = keys:sub(i, i)
-        local keyCode = keyMappings[key]
-        
-        if keyCode then
-            coroutine.wrap(function()
-                VirtualInputManager:SendKeyEvent(true, keyCode, false, game)
-                task.wait((beats / bpm) * 60 * 0.8)
-                VirtualInputManager:SendKeyEvent(false, keyCode, false, game)
-            end)()
+        table.insert(table.find(shiftKeys, key) and shiftRequired or nonShift, key)
+    end
+
+    for _, key in ipairs(nonShift) do
+        local agf = errormargin * 100
+        if math.random(1, 500) <= agf then
+            VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftShift, false, game)
+            shiftApplied = true
         end
+
+        coroutine.wrap(function()
+            if ctrlRequired then
+                VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
+            end
+
+            VirtualInputManager:SendKeyEvent(true, keyMappings[key], false, game)
+
+            if ctrlRequired then
+                VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
+            end
+
+            if shiftApplied == true then
+                VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game)
+                shiftApplied = false
+            end
+
+            local waittime
+            local randomOff
+
+            if shorts == false then
+                local maxRan = (beats / bpm) * 60 / 2
+                randomOff = math.random() * maxRan
+                waittime = (beats / bpm) * 60 - randomOff
+            else
+                waittime = math.random(3, 8) / 100
+            end
+            
+            task.wait(waittime)
+            
+            VirtualInputManager:SendKeyEvent(false, keyMappings[key], false, game)
+        end)()
+
+        if errormargin ~= 0 then
+            if math.random() < 0.5 then
+                task.wait(math.random() * errormargin / 3)
+            end
+        end
+    end
+
+    if #shiftRequired > 0 then
+        for _, key in ipairs(shiftRequired) do
+            VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftShift, false, game)
+            
+            local agf = errormargin * 100
+            if math.random(1, 500) <= agf then
+                VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game)
+                unshiftApplied = true
+            end
+
+            coroutine.wrap(function()
+                if ctrlRequired then
+                    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
+                end
+    
+                VirtualInputManager:SendKeyEvent(true, keyMappings[key], false, game)
+    
+                if ctrlRequired then
+                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
+                end
+
+                if unshiftApplied == false then
+                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game)
+                end
+
+                local waittime
+                local randomOff
+
+                if shorts == false then
+                    local maxRan = (beats / bpm) * 60 / 2
+                    randomOff = math.random() * maxRan
+                    waittime = (beats / bpm) * 60 - randomOff
+                else
+                    waittime = math.random(4, 12) / 100
+                end
+                task.wait(waittime)
+
+                VirtualInputManager:SendKeyEvent(false, keyMappings[key], false, game)
+            end)()
+
+            if errormargin ~= 0 then
+                if math.random() < 0.5 then
+                    task.wait(math.random() * errormargin / 3)
+                end
+            end
+        end
+    end
+
+    if ctrlRequired then
+        VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
+    end
+
+    if errormargin ~= 0 then
+        task.wait(math.random() * (errormargin * 2))
+    end
+end
+
+-- MAPEAMENTO DE NOTAS COMPLETO
+local noteMappings = {
+    ["C"] = {[1] = "1", [2] = "8", [3] = "t", [4] = "s", [5] = "l", [6] = "m"},
+    ["C#"] = {[1] = "!", [2] = "*", [3] = "T", [4] = "S", [5] = "L"},
+    ["D"] = {[1] = "2", [2] = "9", [3] = "y", [4] = "d", [5] = "z"},
+    ["D#"] = {[1] = "@", [2] = "(", [3] = "Y", [4] = "D", [5] = "Z"},
+    ["E"] = {[1] = "3", [2] = "0", [3] = "u", [4] = "f", [5] = "x"},
+    ["F"] = {[1] = "4", [2] = "q", [3] = "i", [4] = "g", [5] = "c"},
+    ["F#"] = {[1] = "$", [2] = "Q", [3] = "I", [4] = "G", [5] = "C"},
+    ["G"] = {[1] = "5", [2] = "w", [3] = "o", [4] = "h", [5] = "v"},
+    ["G#"] = {[1] = "%", [2] = "W", [3] = "O", [4] = "H", [5] = "V"},
+    ["A"] = {[1] = "6", [2] = "e", [3] = "p", [4] = "j", [5] = "b"},
+    ["A#"] = {[1] = "^", [2] = "E", [3] = "P", [4] = "J", [5] = "B"},
+    ["B"] = {[1] = "7", [2] = "r", [3] = "a", [4] = "k", [5] = "n"}
+}
+
+-- FUNÇÕES DE MÚSICA RESTAURADAS
+function pressnote(note, octave, beats, bpm)
+    table.insert(song, {
+        type = "pressnote",
+        note = note,
+        octave = octave,
+        beats = beats
+    })
+end
+
+function pressnotetrigger(note, octave, beats, bpm)
+    if _G.STOPIT then return end
+    if pausing then
+        task.wait(0.1)
+        return
+    end
+
+    local key = noteMappings[note] and noteMappings[note][octave]
+    if key then
+        coroutine.wrap(function()
+            pressKey(key, beats, bpm)
+        end)()
+    else
+        warn("Nota ou oitava inválida: " .. tostring(note) .. " oitava " .. tostring(octave))
     end
 end
 
@@ -546,11 +689,87 @@ function keypress(keys, beats, bpm)
     })
 end
 
+function keypresstrigger(keys, beats, bpm)
+    if _G.STOPIT then return end
+    if pausing then
+        task.wait(0.1)
+        return
+    end
+    coroutine.wrap(function()
+        pressKey(keys, beats, bpm)
+    end)()
+end
+
+function adjustVelocity(vel)
+    table.insert(song, {
+        type = "adjustVelocity",
+        vel = vel
+    })
+end
+
+function adjustVelocitytrigger(vel)
+    if _G.STOPIT then return end
+    local velocityMap = "58qrupdhl"
+
+    vel = math.clamp(vel, 0, 1)
+
+    if vel < 0.27 then
+        topress = "2"
+    elseif vel >= 0.88 then
+        topress = "c"
+    else
+        local index = math.floor((vel - 0.27) / 0.61 * (#velocityMap - 2)) + 2
+        topress = velocityMap:sub(index, index)
+    end
+
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftAlt, false, game)
+    VirtualInputManager:SendKeyEvent(true, keyMappings[topress], false, game)
+    VirtualInputManager:SendKeyEvent(false, keyMappings[topress], false, game)
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftAlt, false, game)
+end
+
 function rest(beats, bpm)
     table.insert(song, {
         type = "rest",
         beats = beats
     })
+end
+
+function resttrigger(beats, bpm)
+    if _G.STOPIT then return end
+    
+    local waitTime = (beats / bpm) * 60
+    if errormargin == 0 then
+        task.wait(waitTime)
+    else
+        local randomOffset = (math.random() * 2 - 1) * (errormargin / 2)
+        task.wait(waitTime + randomOffset)
+    end
+    
+    currentSongPosition = currentSongPosition + beats
+    updateProgress()
+end
+
+function pedalDown()
+    table.insert(song, {
+        type = "pedalDown"
+    })
+end
+
+function pedalDowntrigger()
+    if _G.STOPIT then return end
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Space, false, game)
+end
+
+function pedalUp()
+    table.insert(song, {
+        type = "pedalUp"
+    })
+end
+
+function pedalUptrigger()
+    if _G.STOPIT then return end
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Space, false, game)
 end
 
 function finishedSong()
@@ -565,13 +784,12 @@ updateBpmText()
 updateErrorText()
 updateStatus("Pronto - Lúcifer Scripts")
 
--- LOOP PRINCIPAL OTIMIZADO
+-- LOOP PRINCIPAL COMPLETO
 _G.STOPIT = false
 
 songThread = task.spawn(function()
     repeat task.wait() until finishedLoading == true
     
-    -- Calcular total de beats
     totalSongBeats = 0
     for _, action in pairs(song) do
         if action.type == "rest" then
@@ -593,23 +811,28 @@ songThread = task.spawn(function()
         local action = song[i]
         
         if action.type == "keypress" then
-            pressKey(action.keys, action.beats, bpm)
+            keypresstrigger(action.keys, action.beats, bpm)
         elseif action.type == "rest" then
-            local waitTime = (action.beats / bpm) * 60
-            task.wait(waitTime)
-            currentSongPosition = currentSongPosition + action.beats
-            updateProgress()
+            resttrigger(action.beats, bpm)
+        elseif action.type == "adjustVelocity" then
+            adjustVelocitytrigger(action.vel)
+        elseif action.type == "pedalDown" then
+            pedalDowntrigger()
+        elseif action.type == "pedalUp" then
+            pedalUptrigger()
         elseif action.type == "finishedSong" then
             updateStatus("Música Finalizada - Lúcifer Scripts")
             playSound("18595195017", 0.5)
             NotificationLibrary:SendNotification("Sucesso", "Música concluída!", 3)
             songisplaying = false
             break
+        elseif action.type == "pressnote" then
+            pressnotetrigger(action.note, action.octave, action.beats, bpm)
         end
     end
 end)
 
--- WATCHER OTIMIZADO
+-- WATCHER COMPLETO
 task.spawn(function()
     while task.wait(0.1) do
         if _G.STOPIT then
