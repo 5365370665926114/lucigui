@@ -13,16 +13,68 @@ function playSound(soundId, loudness)
     sound:Play()
 end
 
--- CARREGAR A MÚSICA E OBTER O BPM
-local songData = loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/load.lua", true))()
+-- CARREGAR A MÚSICA E DETECTAR BPM AUTOMATICAMENTE
+x = "hi"
 
--- Extrair BPM da música carregada (se disponível)
-local initialBpm = 120 -- BPM padrão
-if songData and songData.bpm then
-    initialBpm = songData.bpm
-elseif _G.SONG_BPM then
-    initialBpm = _G.SONG_BPM
+-- Carregar a música (mantendo o original)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/load.lua", true))()
+
+-- SISTEMA DE DETECÇÃO AUTOMÁTICA DE BPM
+local function detectBpm()
+    -- Método 1: Verificar variável global _G.bpm
+    if _G.bpm then
+        return _G.bpm
+    end
+    
+    -- Método 2: Verificar variável global bpm
+    if bpm and type(bpm) == "number" then
+        return bpm
+    end
+    
+    -- Método 3: Verificar se há dados da música carregada
+    if _G.SONG_DATA and _G.SONG_DATA.bpm then
+        return _G.SONG_DATA.bpm
+    end
+    
+    -- Método 4: Tentar extrair do contexto atual
+    local success, result = pcall(function()
+        return getfenv(0).bpm
+    end)
+    if success and result then
+        return result
+    end
+    
+    -- Método 5: Analisar a primeira parte da música (se disponível)
+    if song and #song > 0 then
+        -- Procurar por rest beats para estimar BPM
+        local totalBeats = 0
+        local restCount = 0
+        for i = 1, math.min(10, #song) do
+            if song[i].type == "rest" then
+                totalBeats = totalBeats + song[i].beats
+                restCount = restCount + 1
+            end
+        end
+        
+        -- Se tiver dados suficientes, estimar BPM baseado na estrutura
+        if restCount > 2 then
+            -- Estimativa baseada em padrões comuns
+            if totalBeats / restCount > 2 then
+                return 120 -- Provavelmente 4/4
+            elseif totalBeats / restCount > 1.5 then
+                return 140
+            else
+                return 160
+            end
+        end
+    end
+    
+    -- Padrão caso não consiga detectar
+    return 120
 end
+
+-- Detectar BPM automaticamente
+local initialBpm = detectBpm()
 
 -- GUI PRETO E BRANCO
 local ScreenGui = Instance.new("ScreenGui")
@@ -400,12 +452,12 @@ UserInputService.InputChanged:Connect(function(input)
     end
 end)
 
--- VARIÁVEIS GLOBAIS (USANDO BPM INICIAL)
+-- VARIÁVEIS GLOBAIS (USANDO BPM DETECTADO)
 local song = {}
 local songThread = nil
 local finishedLoading = false
 local pausing = false
-local bpm = initialBpm -- USANDO BPM DA MÚSICA
+local bpm = initialBpm -- USANDO BPM DETECTADO AUTOMATICAMENTE
 local errormargin = 0
 local currentSongPosition = 0
 local totalSongBeats = 0
@@ -788,7 +840,7 @@ function finishedSong()
     finishedLoading = true
 end
 
--- INICIALIZAÇÃO COM BPM CORRETO
+-- INICIALIZAÇÃO COM BPM DETECTADO
 updateBpmText()
 updateErrorText()
 updateStatus("Pronto - Lúcifer Scripts (BPM: " .. tostring(initialBpm) .. ")")
