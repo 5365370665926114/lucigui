@@ -13,582 +13,485 @@ function playSound(soundId, loudness)
     sound:Play()
 end
 
-x = "hi"
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/load.lua", true))()
 
--- Gui to Lua
--- Version: 3.2
+-- GUI OTIMIZADA PARA ROBLOX
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "LuciferScriptsGUI"
+ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
--- Instances:
+-- FRAME PRINCIPAL
+local MainFrame = Instance.new("Frame")
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
+MainFrame.BorderColor3 = Color3.fromRGB(138, 43, 226)
+MainFrame.BorderSizePixel = 2
+MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainFrame.Size = UDim2.new(0, 400, 0, 220)
+MainFrame.ZIndex = 10
 
-local luciferGui = Instance.new("ScreenGui")
-local mainFrame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local titleBar = Instance.new("Frame")
-local UICorner_Title = Instance.new("UICorner")
-local titleLabel = Instance.new("TextLabel")
-local pauseButton = Instance.new("ImageButton")
-local stopButton = Instance.new("ImageButton")
-local bpmText = Instance.new("TextLabel")
-local upBpm = Instance.new("TextButton")
-local downBpm = Instance.new("TextButton")
-local errorBox = Instance.new("TextLabel")
-local less = Instance.new("TextButton")
-local more = Instance.new("TextButton")
-local info = Instance.new("TextLabel")
-local progressBar = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
-local progressFill = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
-local playhead = Instance.new("ImageButton")
-local UICorner_4 = Instance.new("UICorner")
-local glowEffect = Instance.new("Frame")
+-- CORNER PRINCIPAL
+local MainCorner = Instance.new("UICorner")
+MainCorner.Name = "MainCorner"
+MainCorner.Parent = MainFrame
+MainCorner.CornerRadius = UDim.new(0, 20)
 
---Properties:
+-- BARRA DE TÍTULO
+local TitleBar = Instance.new("Frame")
+TitleBar.Name = "TitleBar"
+TitleBar.Parent = MainFrame
+TitleBar.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+TitleBar.BorderSizePixel = 0
+TitleBar.Position = UDim2.new(0, 0, 0, 0)
+TitleBar.Size = UDim2.new(1, 0, 0, 45)
+TitleBar.ZIndex = 11
 
-luciferGui.Name = "luciferGui"
-luciferGui.Parent = game:GetService("CoreGui")
-luciferGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+-- CORNER DA BARRA DE TÍTULO
+local TitleCorner = Instance.new("UICorner")
+TitleCorner.Name = "TitleCorner"
+TitleCorner.Parent = TitleBar
+TitleCorner.CornerRadius = UDim.new(0, 20)
 
-mainFrame.Name = "mainFrame"
-mainFrame.Parent = luciferGui
-mainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-mainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 30)
-mainFrame.BorderColor3 = Color3.fromRGB(75, 0, 130)
-mainFrame.BorderSizePixel = 2
-mainFrame.Position = UDim2.new(0.5, 0, 0.513671875, 0)
-mainFrame.Size = UDim2.new(0, 350, 0, 180)
+-- TÍTULO
+local TitleLabel = Instance.new("TextLabel")
+TitleLabel.Name = "TitleLabel"
+TitleLabel.Parent = TitleBar
+TitleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleLabel.BackgroundTransparency = 1
+TitleLabel.BorderSizePixel = 0
+TitleLabel.Position = UDim2.new(0, 15, 0, 0)
+TitleLabel.Size = UDim2.new(0.7, 0, 1, 0)
+TitleLabel.Font = Enum.Font.GothamBold
+TitleLabel.Text = "🎵 Lúcifer Scripts"
+TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TitleLabel.TextScaled = true
+TitleLabel.TextSize = 18
+TitleLabel.TextWrapped = true
+TitleLabel.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner.Parent = mainFrame
-UICorner.CornerRadius = UDim.new(0, 15)
+-- CONTAINER DE CONTROLES
+local ControlContainer = Instance.new("Frame")
+ControlContainer.Name = "ControlContainer"
+ControlContainer.Parent = MainFrame
+ControlContainer.BackgroundColor3 = Color3.fromRGB(30, 30, 45)
+ControlContainer.BorderSizePixel = 0
+ControlContainer.Position = UDim2.new(0, 10, 0, 55)
+ControlContainer.Size = UDim2.new(1, -20, 0, 60)
+ControlContainer.ZIndex = 9
 
-titleBar.Name = "titleBar"
-titleBar.Parent = mainFrame
-titleBar.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
-titleBar.BorderSizePixel = 0
-titleBar.Position = UDim2.new(0, 0, 0, 0)
-titleBar.Size = UDim2.new(1, 0, 0, 35)
+-- CORNER DO CONTAINER
+local ControlCorner = Instance.new("UICorner")
+ControlCorner.Name = "ControlCorner"
+ControlCorner.Parent = ControlContainer
+ControlCorner.CornerRadius = UDim.new(0, 15)
 
-UICorner_Title.Parent = titleBar
-UICorner_Title.CornerRadius = UDim.new(0, 15)
+-- BOTÃO PAUSE
+local PauseButton = Instance.new("ImageButton")
+PauseButton.Name = "PauseButton"
+PauseButton.Parent = ControlContainer
+PauseButton.BackgroundColor3 = Color3.fromRGB(75, 75, 100)
+PauseButton.BackgroundTransparency = 0.1
+PauseButton.BorderColor3 = Color3.fromRGB(138, 43, 226)
+PauseButton.BorderSizePixel = 1
+PauseButton.Position = UDim2.new(0, 10, 0, 10)
+PauseButton.Size = UDim2.new(0, 40, 0, 40)
+PauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
+PauseButton.ZIndex = 12
 
-titleLabel.Name = "titleLabel"
-titleLabel.Parent = titleBar
-titleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-titleLabel.BackgroundTransparency = 1.000
-titleLabel.BorderSizePixel = 0
-titleLabel.Position = UDim2.new(0, 10, 0, 0)
-titleLabel.Size = UDim2.new(0.5, 0, 1, 0)
-titleLabel.Font = Enum.Font.GothamBold
-titleLabel.Text = "Lúcifer Scripts"
-titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleLabel.TextScaled = true
-titleLabel.TextSize = 14.000
-titleLabel.TextWrapped = true
-titleLabel.TextXAlignment = Enum.TextXAlignment.Left
+-- CORNER DO BOTÃO PAUSE
+local PauseCorner = Instance.new("UICorner")
+PauseCorner.Name = "PauseCorner"
+PauseCorner.Parent = PauseButton
+PauseCorner.CornerRadius = UDim.new(0, 8)
 
-pauseButton.Name = "pauseButton"
-pauseButton.Parent = mainFrame
-pauseButton.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-pauseButton.BackgroundTransparency = 0.200
-pauseButton.BorderColor3 = Color3.fromRGB(128, 0, 255)
-pauseButton.BorderSizePixel = 1
-pauseButton.Position = UDim2.new(0.05, 0, 0.22, 0)
-pauseButton.Size = UDim2.new(0, 50, 0, 50)
-pauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
+-- BOTÃO STOP
+local StopButton = Instance.new("ImageButton")
+StopButton.Name = "StopButton"
+StopButton.Parent = ControlContainer
+StopButton.BackgroundColor3 = Color3.fromRGB(75, 75, 100)
+StopButton.BackgroundTransparency = 0.1
+StopButton.BorderColor3 = Color3.fromRGB(138, 43, 226)
+StopButton.BorderSizePixel = 1
+StopButton.Position = UDim2.new(0, 60, 0, 10)
+StopButton.Size = UDim2.new(0, 40, 0, 40)
+StopButton.Image = "http://www.roblox.com/asset/?id=99665585363395"
+StopButton.ZIndex = 12
 
-stopButton.Name = "stopButton"
-stopButton.Parent = mainFrame
-stopButton.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-stopButton.BackgroundTransparency = 0.200
-stopButton.BorderColor3 = Color3.fromRGB(128, 0, 255)
-stopButton.BorderSizePixel = 1
-stopButton.Position = UDim2.new(0.22, 0, 0.22, 0)
-stopButton.Size = UDim2.new(0, 50, 0, 50)
-stopButton.Image = "http://www.roblox.com/asset/?id=99665585363395"
+-- CORNER DO BOTÃO STOP
+local StopCorner = Instance.new("UICorner")
+StopCorner.Name = "StopCorner"
+StopCorner.Parent = StopButton
+StopCorner.CornerRadius = UDim.new(0, 8)
 
-bpmText.Name = "bpmText"
-bpmText.Parent = mainFrame
-bpmText.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
-bpmText.BorderColor3 = Color3.fromRGB(128, 0, 255)
-bpmText.BorderSizePixel = 1
-bpmText.Position = UDim2.new(0.45, 0, 0.22, 8)
-bpmText.Size = UDim2.new(0, 120, 0, 34)
-bpmText.Font = Enum.Font.GothamBold
-bpmText.Text = "BPM: nil"
-bpmText.TextColor3 = Color3.fromRGB(255, 255, 255)
-bpmText.TextScaled = true
-bpmText.TextSize = 14.000
-bpmText.TextWrapped = true
+-- CONTAINER BPM
+local BpmContainer = Instance.new("Frame")
+BpmContainer.Name = "BpmContainer"
+BpmContainer.Parent = ControlContainer
+BpmContainer.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+BpmContainer.BorderSizePixel = 0
+BpmContainer.Position = UDim2.new(0, 120, 0, 10)
+BpmContainer.Size = UDim2.new(0, 120, 0, 40)
+BpmContainer.ZIndex = 11
 
-upBpm.Name = "upBpm"
-upBpm.Parent = mainFrame
-upBpm.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-upBpm.BackgroundTransparency = 0.200
-upBpm.BorderColor3 = Color3.fromRGB(128, 0, 255)
-upBpm.BorderSizePixel = 1
-upBpm.Position = UDim2.new(0.37, 0, 0.22, 8)
-upBpm.Size = UDim2.new(0, 34, 0, 34)
-upBpm.Font = Enum.Font.GothamBold
-upBpm.Text = "▲"
-upBpm.TextColor3 = Color3.fromRGB(255, 255, 255)
-upBpm.TextScaled = true
-upBpm.TextSize = 14.000
-upBpm.TextWrapped = true
+-- CORNER DO BPM CONTAINER
+local BpmCorner = Instance.new("UICorner")
+BpmCorner.Name = "BpmCorner"
+BpmCorner.Parent = BpmContainer
+BpmCorner.CornerRadius = UDim.new(0, 8)
 
-downBpm.Name = "downBpm"
-downBpm.Parent = mainFrame
-downBpm.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-downBpm.BackgroundTransparency = 0.200
-downBpm.BorderColor3 = Color3.fromRGB(128, 0, 255)
-downBpm.BorderSizePixel = 1
-downBpm.Position = UDim2.new(0.82, 0, 0.22, 8)
-downBpm.Size = UDim2.new(0, 34, 0, 34)
-downBpm.Font = Enum.Font.GothamBold
-downBpm.Text = "▼"
-downBpm.TextColor3 = Color3.fromRGB(255, 255, 255)
-downBpm.TextScaled = true
-downBpm.TextSize = 14.000
-downBpm.TextWrapped = true
+-- TEXTO BPM
+local BpmText = Instance.new("TextLabel")
+BpmText.Name = "BpmText"
+BpmText.Parent = BpmContainer
+BpmText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BpmText.BackgroundTransparency = 1
+BpmText.BorderSizePixel = 0
+BpmText.Position = UDim2.new(0, 25, 0, 0)
+BpmText.Size = UDim2.new(0, 70, 1, 0)
+BpmText.Font = Enum.Font.GothamBold
+BpmText.Text = "BPM: 120"
+BpmText.TextColor3 = Color3.fromRGB(255, 255, 255)
+BpmText.TextScaled = true
+BpmText.TextSize = 14
+BpmText.TextWrapped = true
 
-errorBox.Name = "errorBox"
-errorBox.Parent = mainFrame
-errorBox.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
-errorBox.BorderColor3 = Color3.fromRGB(128, 0, 255)
-errorBox.BorderSizePixel = 1
-errorBox.Position = UDim2.new(0.05, 0, 0.55, 0)
-errorBox.Size = UDim2.new(0, 120, 0, 31)
-errorBox.Font = Enum.Font.GothamBold
-errorBox.Text = "error margin: 0.00"
-errorBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-errorBox.TextScaled = true
-errorBox.TextSize = 14.000
-errorBox.TextWrapped = true
+-- BOTÃO AUMENTAR BPM
+local UpBpmButton = Instance.new("TextButton")
+UpBpmButton.Name = "UpBpmButton"
+UpBpmButton.Parent = BpmContainer
+UpBpmButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+UpBpmButton.BorderSizePixel = 0
+UpBpmButton.Position = UDim2.new(0, 5, 0, 5)
+UpBpmButton.Size = UDim2.new(0, 15, 0, 15)
+UpBpmButton.Font = Enum.Font.GothamBold
+UpBpmButton.Text = "▲"
+UpBpmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpBpmButton.TextScaled = true
+UpBpmButton.ZIndex = 13
 
-less.Name = "less"
-less.Parent = mainFrame
-less.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-less.BackgroundTransparency = 0.200
-less.BorderColor3 = Color3.fromRGB(128, 0, 255)
-less.BorderSizePixel = 1
-less.Position = UDim2.new(0.41, 0, 0.55, 0)
-less.Size = UDim2.new(0, 31, 0, 30)
-less.Font = Enum.Font.GothamBold
-less.Text = "▼"
-less.TextColor3 = Color3.fromRGB(255, 255, 255)
-less.TextScaled = true
-less.TextSize = 14.000
-less.TextWrapped = true
+-- CORNER DO BOTÃO AUMENTAR BPM
+local UpBpmCorner = Instance.new("UICorner")
+UpBpmCorner.Name = "UpBpmCorner"
+UpBpmCorner.Parent = UpBpmButton
+UpBpmCorner.CornerRadius = UDim.new(0, 3)
 
-more.Name = "more"
-more.Parent = mainFrame
-more.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-more.BackgroundTransparency = 0.200
-more.BorderColor3 = Color3.fromRGB(128, 0, 255)
-more.BorderSizePixel = 1
-more.Position = UDim2.new(0.47, 0, 0.55, 0)
-more.Size = UDim2.new(0, 31, 0, 30)
-more.Font = Enum.Font.GothamBold
-more.Text = "▲"
-more.TextColor3 = Color3.fromRGB(255, 255, 255)
-more.TextScaled = true
-more.TextSize = 14.000
-more.TextWrapped = true
+-- BOTÃO DIMINUIR BPM
+local DownBpmButton = Instance.new("TextButton")
+DownBpmButton.Name = "DownBpmButton"
+DownBpmButton.Parent = BpmContainer
+DownBpmButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+DownBpmButton.BorderSizePixel = 0
+DownBpmButton.Position = UDim2.new(0, 5, 0, 20)
+DownBpmButton.Size = UDim2.new(0, 15, 0, 15)
+DownBpmButton.Font = Enum.Font.GothamBold
+DownBpmButton.Text = "▼"
+DownBpmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DownBpmButton.TextScaled = true
+DownBpmButton.ZIndex = 13
 
-info.Name = "info"
-info.Parent = mainFrame
-info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-info.BackgroundTransparency = 1.000
-info.BorderColor3 = Color3.fromRGB(0, 0, 0)
-info.BorderSizePixel = 0
-info.Position = UDim2.new(0.52, 0, 0.55, 0)
-info.Size = UDim2.new(0, 150, 0, 30)
-info.Font = Enum.Font.Gotham
-info.Text = "Lúcifer Scripts"
-info.TextColor3 = Color3.fromRGB(200, 200, 255)
-info.TextScaled = true
-info.TextSize = 14.000
-info.TextWrapped = true
+-- CORNER DO BOTÃO DIMINUIR BPM
+local DownBpmCorner = Instance.new("UICorner")
+DownBpmCorner.Name = "DownBpmCorner"
+DownBpmCorner.Parent = DownBpmButton
+DownBpmCorner.CornerRadius = UDim.new(0, 3)
 
-progressBar.Name = "progressBar"
-progressBar.Parent = mainFrame
-progressBar.AnchorPoint = Vector2.new(0.5, 0.5)
-progressBar.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
-progressBar.BorderColor3 = Color3.fromRGB(128, 0, 255)
-progressBar.BorderSizePixel = 1
-progressBar.Position = UDim2.new(0.5, 0, 0.85, 0)
-progressBar.Size = UDim2.new(0, 300, 0, 8)
+-- CONTAINER ERROR MARGIN
+local ErrorContainer = Instance.new("Frame")
+ErrorContainer.Name = "ErrorContainer"
+ErrorContainer.Parent = ControlContainer
+ErrorContainer.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+ErrorContainer.BorderSizePixel = 0
+ErrorContainer.Position = UDim2.new(0, 250, 0, 10)
+ErrorContainer.Size = UDim2.new(0, 130, 0, 40)
+ErrorContainer.ZIndex = 11
 
-UICorner_2.CornerRadius = UDim.new(0, 5)
-UICorner_2.Parent = progressBar
+-- CORNER DO ERROR CONTAINER
+local ErrorCorner = Instance.new("UICorner")
+ErrorCorner.Name = "ErrorCorner"
+ErrorCorner.Parent = ErrorContainer
+ErrorCorner.CornerRadius = UDim.new(0, 8)
 
-progressFill.Name = "progressFill"
-progressFill.Parent = progressBar
-progressFill.BackgroundColor3 = Color3.fromRGB(128, 0, 255)
-progressFill.BorderSizePixel = 0
-progressFill.Size = UDim2.new(0, 0, 1, 0)
+-- TEXTO ERROR MARGIN
+local ErrorText = Instance.new("TextLabel")
+ErrorText.Name = "ErrorText"
+ErrorText.Parent = ErrorContainer
+ErrorText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ErrorText.BackgroundTransparency = 1
+ErrorText.BorderSizePixel = 0
+ErrorText.Position = UDim2.new(0, 35, 0, 0)
+ErrorText.Size = UDim2.new(0, 80, 1, 0)
+ErrorText.Font = Enum.Font.GothamBold
+ErrorText.Text = "Error: 0.00"
+ErrorText.TextColor3 = Color3.fromRGB(255, 255, 255)
+ErrorText.TextScaled = true
+ErrorText.TextSize = 12
+ErrorText.TextWrapped = true
 
-UICorner_3.CornerRadius = UDim.new(0, 5)
-UICorner_3.Parent = progressFill
+-- BOTÃO AUMENTAR ERROR
+local UpErrorButton = Instance.new("TextButton")
+UpErrorButton.Name = "UpErrorButton"
+UpErrorButton.Parent = ErrorContainer
+UpErrorButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+UpErrorButton.BorderSizePixel = 0
+UpErrorButton.Position = UDim2.new(0, 5, 0, 5)
+UpErrorButton.Size = UDim2.new(0, 15, 0, 15)
+UpErrorButton.Font = Enum.Font.GothamBold
+UpErrorButton.Text = "▲"
+UpErrorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpErrorButton.TextScaled = true
+UpErrorButton.ZIndex = 13
 
-playhead.Name = "playhead"
-playhead.Parent = progressBar
-playhead.AnchorPoint = Vector2.new(0, 0.5)
-playhead.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-playhead.BorderSizePixel = 0
-playhead.Position = UDim2.new(0, -10, 0.5, 0)
-playhead.Size = UDim2.new(0, 12, 0, 12)
+-- CORNER DO BOTÃO AUMENTAR ERROR
+local UpErrorCorner = Instance.new("UICorner")
+UpErrorCorner.Name = "UpErrorCorner"
+UpErrorCorner.Parent = UpErrorButton
+UpErrorCorner.CornerRadius = UDim.new(0, 3)
 
-UICorner_4.CornerRadius = UDim.new(1, 0)
-UICorner_4.Parent = playhead
+-- BOTÃO DIMINUIR ERROR
+local DownErrorButton = Instance.new("TextButton")
+DownErrorButton.Name = "DownErrorButton"
+DownErrorButton.Parent = ErrorContainer
+DownErrorButton.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+DownErrorButton.BorderSizePixel = 0
+DownErrorButton.Position = UDim2.new(0, 5, 0, 20)
+DownErrorButton.Size = UDim2.new(0, 15, 0, 15)
+DownErrorButton.Font = Enum.Font.GothamBold
+DownErrorButton.Text = "▼"
+DownErrorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DownErrorButton.TextScaled = true
+DownErrorButton.ZIndex = 13
 
-glowEffect.Name = "glowEffect"
-glowEffect.Parent = mainFrame
-glowEffect.BackgroundColor3 = Color3.fromRGB(128, 0, 255)
-glowEffect.BorderSizePixel = 0
-glowEffect.Position = UDim2.new(0, -5, 0, -5)
-glowEffect.Size = UDim2.new(1, 10, 1, 10)
-glowEffect.BackgroundTransparency = 0.9
-glowEffect.ZIndex = -1
+-- CORNER DO BOTÃO DIMINUIR ERROR
+local DownErrorCorner = Instance.new("UICorner")
+DownErrorCorner.Name = "DownErrorCorner"
+DownErrorCorner.Parent = DownErrorButton
+DownErrorCorner.CornerRadius = UDim.new(0, 3)
 
+-- BARRA DE PROGRESSO
+local ProgressContainer = Instance.new("Frame")
+ProgressContainer.Name = "ProgressContainer"
+ProgressContainer.Parent = MainFrame
+ProgressContainer.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
+ProgressContainer.BorderSizePixel = 0
+ProgressContainer.Position = UDim2.new(0, 20, 0, 130)
+ProgressContainer.Size = UDim2.new(0, 360, 0, 30)
+ProgressContainer.ZIndex = 9
+
+-- CORNER DA BARRA DE PROGRESSO
+local ProgressCorner = Instance.new("UICorner")
+ProgressCorner.Name = "ProgressCorner"
+ProgressCorner.Parent = ProgressContainer
+ProgressCorner.CornerRadius = UDim.new(0, 15)
+
+-- BARRA DE PROGRESSO FUNDO
+local ProgressBar = Instance.new("Frame")
+ProgressBar.Name = "ProgressBar"
+ProgressBar.Parent = ProgressContainer
+ProgressBar.BackgroundColor3 = Color3.fromRGB(30, 30, 45)
+ProgressBar.BorderSizePixel = 0
+ProgressBar.Position = UDim2.new(0, 5, 0, 5)
+ProgressBar.Size = UDim2.new(0, 350, 0, 20)
+ProgressBar.ZIndex = 10
+
+-- CORNER DA PROGRESS BAR
+local ProgressBgCorner = Instance.new("UICorner")
+ProgressBgCorner.Name = "ProgressBgCorner"
+ProgressBgCorner.Parent = ProgressBar
+ProgressBgCorner.CornerRadius = UDim.new(0, 10)
+
+-- PREENCHIMENTO DA PROGRESS BAR
+local ProgressFill = Instance.new("Frame")
+ProgressFill.Name = "ProgressFill"
+ProgressFill.Parent = ProgressBar
+ProgressFill.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+ProgressFill.BorderSizePixel = 0
+ProgressFill.Position = UDim2.new(0, 0, 0, 0)
+ProgressFill.Size = UDim2.new(0, 0, 1, 0)
+ProgressFill.ZIndex = 11
+
+-- CORNER DO PREENCHIMENTO
+local FillCorner = Instance.new("UICorner")
+FillCorner.Name = "FillCorner"
+FillCorner.Parent = ProgressFill
+FillCorner.CornerRadius = UDim.new(0, 10)
+
+-- INDICADOR DE PROGRESSO
+local Playhead = Instance.new("Frame")
+Playhead.Name = "Playhead"
+Playhead.Parent = ProgressBar
+Playhead.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Playhead.BorderSizePixel = 0
+Playhead.Position = UDim2.new(0, -8, 0.5, -8)
+Playhead.Size = UDim2.new(0, 16, 0, 16)
+Playhead.ZIndex = 12
+
+-- CORNER DO PLAYHEAD
+local PlayheadCorner = Instance.new("UICorner")
+PlayheadCorner.Name = "PlayheadCorner"
+PlayheadCorner.Parent = Playhead
+PlayheadCorner.CornerRadius = UDim.new(1, 0)
+
+-- TEXTO DE STATUS
+local StatusText = Instance.new("TextLabel")
+StatusText.Name = "StatusText"
+StatusText.Parent = MainFrame
+StatusText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StatusText.BackgroundTransparency = 1
+StatusText.BorderSizePixel = 0
+StatusText.Position = UDim2.new(0, 20, 0, 170)
+StatusText.Size = UDim2.new(0, 360, 0, 30)
+StatusText.Font = Enum.Font.Gotham
+StatusText.Text = "🎹 Lúcifer Scripts - Ready to Play"
+StatusText.TextColor3 = Color3.fromRGB(200, 200, 255)
+StatusText.TextScaled = true
+StatusText.TextSize = 14
+StatusText.TextWrapped = true
+
+-- EFEITO DE BRILHO
+local GlowEffect = Instance.new("Frame")
+GlowEffect.Name = "GlowEffect"
+GlowEffect.Parent = MainFrame
+GlowEffect.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+GlowEffect.BorderSizePixel = 0
+GlowEffect.Position = UDim2.new(0, -10, 0, -10)
+GlowEffect.Size = UDim2.new(1, 20, 1, 20)
+GlowEffect.BackgroundTransparency = 0.85
+GlowEffect.ZIndex = 8
+
+-- CORNER DO BRILHO
+local GlowCorner = Instance.new("UICorner")
+GlowCorner.Name = "GlowCorner"
+GlowCorner.Parent = GlowEffect
+GlowCorner.CornerRadius = UDim.new(0, 25)
+
+-- SISTEMA DE DRAG OTIMIZADO
 local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
 
-local gui = mainFrame
+local dragging = false
+local dragStart = nil
+local startPos = nil
 
-local dragging
-local dragInput
-local dragStart
-local startPos
-
-local function update(input)
-    local delta = input.Position - dragStart
-    gui.Position =
-        UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-end
-
-gui.InputBegan:Connect(
-    function(input)
-        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-            dragging = true
-            dragStart = input.Position
-            startPos = gui.Position
-
-            input.Changed:Connect(
-                function()
-                    if input.UserInputState == Enum.UserInputState.End then
-                        dragging = false
-                    end
-                end
-            )
-        end
+MainFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        dragStart = input.Position
+        startPos = MainFrame.Position
+        
+        -- Animação de feedback
+        local tween = TweenService:Create(MainFrame, TweenInfo.new(0.1), {Size = UDim2.new(0, 410, 0, 230)})
+        tween:Play()
     end
-)
+end)
 
-gui.InputChanged:Connect(
-    function(input)
-        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-            dragInput = input
-        end
+MainFrame.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = false
+        
+        -- Animação de feedback
+        local tween = TweenService:Create(MainFrame, TweenInfo.new(0.1), {Size = UDim2.new(0, 400, 0, 220)})
+        tween:Play()
     end
-)
+end)
 
-UserInputService.InputChanged:Connect(
-    function(input)
-        if input == dragInput and dragging then
-            update(input)
-        end
+UserInputService.InputChanged:Connect(function(input)
+    if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+        local delta = input.Position - dragStart
+        MainFrame.Position = UDim2.new(
+            startPos.X.Scale,
+            startPos.X.Offset + delta.X,
+            startPos.Y.Scale,
+            startPos.Y.Offset + delta.Y
+        )
     end
-)
+end)
 
+-- VARIÁVEIS GLOBAIS
 local song = {}
-local songThread
+local songThread = nil
 local finishedLoading = false
+local pausing = false
+local bpm = 120
+local errormargin = 0
+local currentSongPosition = 0
+local totalSongBeats = 0
+local songisplaying = false
 
-function stopPlayingSongs()
-
-    print("stopped.")
-    _G.STOPIT = true -- indicator for playing functions that tells it to halt.
-
-    function pressKey(keys, beats, bpm)
-    end
-
-    function pressnote(note, octave, beats, bpm)
-    end
-
-    function rest(beats, bpm)
-    end
-
-    function keypress(keys, beats, bpm)
-    end
-
-    function keysequence16(keys, beats, bpm)
-    end
-
-    function finishedSong()
-    end
-
-    function adjustVelocity(h)
-    end
-
-    songisplaying = false -- indicator for telling the user they cant play when a song is playing, etc.
-
-    playSound("18595195017", 0.5)
-    NotificationLibrary:SendNotification("Success", "stopping...", 1)
-    luciferGui:Destroy()
+-- FUNÇÕES DE ATUALIZAÇÃO DE UI
+local function updateBpmText()
+    BpmText.Text = "BPM: " .. tostring(bpm)
 end
 
-function finishedSong()
-    table.insert(song, {
-        type = "finishedSong"
-    })
-    finishedLoading = true
+local function updateErrorText()
+    ErrorText.Text = "Error: " .. string.format("%.2f", errormargin)
 end
 
-local function finishedSongtrigger()
-    if _G.STOPIT then return end
-    playSound("18595195017", 0.5)
-    NotificationLibrary:SendNotification("Success", "songfinished", 3)
-    songisplaying = false
-    luciferGui:Destroy()
-    luciferGui = nil
-    _G.STOPIT = true
+local function updateStatus(text)
+    StatusText.Text = "🎹 " .. text
 end
 
-local resumeEvent = Instance.new("BindableEvent")
+local function updateProgress()
+    if totalSongBeats > 0 then
+        local percentage = math.clamp(currentSongPosition / totalSongBeats, 0, 1)
+        ProgressFill:TweenSize(UDim2.new(percentage, 0, 1, 0), "Out", "Quad", 0.1)
+        Playhead:TweenPosition(UDim2.new(percentage, -8, 0.5, -8), "Out", "Quad", 0.1)
+    end
+end
 
-pausing = false
-
+-- FUNÇÕES DE CONTROLE
 local function pauseSong()
     pausing = not pausing
-
-    if not pausing then
-        pauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
-        resumeEvent:Fire()
+    if pausing then
+        PauseButton.Image = "http://www.roblox.com/asset/?id=130610056660845"
+        updateStatus("Paused - Lúcifer Scripts")
     else
-        pausing = true
-        pauseButton.Image = "http://www.roblox.com/asset/?id/130610056660845"
+        PauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
+        updateStatus("Playing - Lúcifer Scripts")
     end
 end
 
-pauseButton.MouseButton1Click:Connect(pauseSong)
-
-stopButton.MouseButton1Click:Connect(stopPlayingSongs)
-
-local function updatebpmtext()
-    bpmText.Text = "BPM: " .. tostring(bpm)
+local function stopSong()
+    _G.STOPIT = true
+    songisplaying = false
+    pausing = false
+    PauseButton.Image = "http://www.roblox.com/asset/?id=86903979265676"
+    updateStatus("Stopped - Lúcifer Scripts")
+    ProgressFill:TweenSize(UDim2.new(0, 0, 1, 0), "Out", "Quad", 0.3)
+    Playhead:TweenPosition(UDim2.new(0, -8, 0.5, -8), "Out", "Quad", 0.3)
+    playSound("18595195017", 0.5)
+    NotificationLibrary:SendNotification("Success", "Song stopped", 1)
 end
 
-updatebpmtext()
+-- EVENTOS DOS BOTÕES
+PauseButton.MouseButton1Click:Connect(pauseSong)
+StopButton.MouseButton1Click:Connect(stopSong)
 
-upBpm.MouseButton1Click:Connect(
-    function()
-        bpm = bpm + 10
-        updatebpmtext()
-    end
-)
-
-downBpm.MouseButton1Click:Connect(
-    function()
-        bpm = bpm - 10
-        updatebpmtext()
-    end
-)
-
-if not errormargin then
-    errormargin = 0
-else
-end
-
-local function updateErrorMargin()
-    errorBox.Text = "error margin: " .. tostring(errormargin)
-end
-
-updateErrorMargin()
-
-local function round(num, decimalPlaces)
-    local mult = 10 ^ decimalPlaces
-    return math.floor(num * mult + 0.5) / mult
-end
-
-more.MouseButton1Click:Connect(
-    function()
-        errormargin = round(errormargin + 0.005, 3)
-        updateErrorMargin()
-    end
-)
-
-less.MouseButton1Click:Connect(
-    function()
-        if errormargin <= 0 then
-            return
-        end
-        errormargin = round(errormargin - 0.005, 3)
-        updateErrorMargin()
-    end
-)
-
-VirtualInputManager = game:GetService("VirtualInputManager")
-
--- PLAYHEAD FUNCTIONS
--- PLAYHEAD FUNCTIONS
--- PLAYHEAD FUNCTIONS
-
-local halted = false
-local tempClear = false
-local currentSongPosition = 0  -- Current position in beats
-local totalSongBeats = 0       -- Total song length in beats
-local isDraggingPlayhead = false
-
-local draggingPlayhead = false
-local playheadDragStart = nil
-
-local waspaused = false
-playhead.InputBegan:Connect(function(input) -- pick up the playhead, pause the song
-    if input.UserInputType == Enum.UserInputType.MouseButton1 or 
-       input.UserInputType == Enum.UserInputType.Touch then
-        draggingPlayhead = true
-        isDraggingPlayhead = true
-        
-        if pausing == true then waspaused = true else waspaused = false end
-        pausing = true
-    end
+UpBpmButton.MouseButton1Click:Connect(function()
+    bpm = bpm + 10
+    updateBpmText()
 end)
 
-UserInputService.InputEnded:Connect(function(input) -- let go of the playhead, resume the song and call percentage skip func
-    if input.UserInputType == Enum.UserInputType.MouseButton1 or 
-       input.UserInputType == Enum.UserInputType.Touch then
-        if draggingPlayhead then
-            draggingPlayhead = false
-            isDraggingPlayhead = false
-            
-            -- Calculate percentage based on playhead position
-            local percentage = (playhead.Position.X.Scale * 100)
-            
-            if waspaused == false then
-                pausing = false
-                resumeEvent:Fire()
-            else waspaused = false end
-
-            skipToPercentage(percentage)
-        end
-    end
+DownBpmButton.MouseButton1Click:Connect(function()
+    bpm = math.max(10, bpm - 10)
+    updateBpmText()
 end)
 
-UserInputService.InputChanged:Connect(function(input) -- dragging the playhead
-    if draggingPlayhead and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-        
-        local mousePos = input.Position
-        local barPos = progressBar.AbsolutePosition
-        local barSize = progressBar.AbsoluteSize
-        
-        local relativeX = mousePos.X - barPos.X
-        local percentage = math.clamp(relativeX / barSize.X, 0, 1)
-        
-        playhead.Position = UDim2.new(percentage, -10, 0.5, 0)
-        progressFill.Size = UDim2.new(percentage, 0, 1, 0)
-    end
+UpErrorButton.MouseButton1Click:Connect(function()
+    errormargin = math.min(1, errormargin + 0.01)
+    updateErrorText()
 end)
 
-local function calculateTotalBeats()
-    local totalBeats = 0
-    for _, action in pairs(song) do
-        if action.type == "rest" then
-            totalBeats = totalBeats + action.beats
-        end
-    end
-    return totalBeats
-end
+DownErrorButton.MouseButton1Click:Connect(function()
+    errormargin = math.max(0, errormargin - 0.01)
+    updateErrorText()
+end)
 
-function getSkipIndex(percentage) -- function to return the part of the song to skip to based on percentage
-    if percentage < 0 or percentage > 100 then
-        print("Invalid percentage. Must be 0-100")
-        return
-    end
-
-    local totalBeats = calculateTotalBeats()
-    local targetBeats = (percentage / 100) * totalBeats
-    local currentBeats = 0
-    local targetIndex = 1
-    
-    for i, action in pairs(song) do
-        if action.type == "rest" then
-            currentBeats = currentBeats + action.beats
-            if currentBeats >= targetBeats then
-                targetIndex = i
-                break
-            end
-        end
-    end
-    
-    return targetIndex
-end
-
-local function updatePlayheadVisual()
-    if totalSongBeats == 0 then return end
-    
-    local percentage = currentSongPosition / totalSongBeats
-    percentage = math.clamp(percentage, 0, 1)
-
-    playhead.Position = UDim2.new(percentage, -10, 0.5, 0)
-
-    progressFill.Size = UDim2.new(percentage, 0, 1, 0)
-end
-
-function skipToPercentage(percentage)
-    tempClear = true
-    halted = false
-    repeat wait() until halted == true
-    tempClear = false
-
-    local targetIndex = getSkipIndex(percentage)
-
-    local targetBeats = (percentage / 100) * totalSongBeats
-    currentSongPosition = 0
-
-    for i = 1, targetIndex - 1 do
-        if song[i].type == "rest" then
-            currentSongPosition = currentSongPosition + song[i].beats
-        end
-    end
-
-    updatePlayheadVisual()
-
-    songThread = task.spawn(function()
-        for i = targetIndex, #song do
-            if _G.STOPIT or tempClear then halted = true break end
-            
-            local action = song[i]
-            
-            if action.type == "keypress" then
-                keypresstrigger(action.keys, action.beats, bpm)
-            elseif action.type == "rest" then
-                resttrigger(action.beats, bpm)
-            elseif action.type == "adjustVelocity" then
-                adjustVelocitytrigger(action.vel)
-            elseif action.type == "pedalDown" then
-                pedalDowntrigger()
-            elseif action.type == "pedalUp" then
-                pedalUptrigger()
-            elseif action.type == "finishedSong" then
-                finishedSongtrigger()
-            elseif action.type == "pressnote" then
-                pressnotetrigger(action.note, action.octave, action.beats, bpm)
-            end
-        end
-    end)
-end
-
--- PRESSKEY FUNCTION
--- PRESSKEY FUNCTION
--- PRESSKEY FUNCTION
-
-local shiftKeys = {
-    "!","@","#","$","%","^","&","*","(",")",
-    "Q","W","E","R","T","Y","U","I","O","P",
-    "A","S","D","F","G","H","J","K","L","Z",
-    "X","C","V","B","N","M"
-}
+-- FUNÇÕES DE MÚSICA (OTIMIZADAS)
+local VirtualInputManager = game:GetService("VirtualInputManager")
 
 local keyMappings = {
     ["1"] = Enum.KeyCode.One, ["!"] = Enum.KeyCode.One, ["2"] = Enum.KeyCode.Two, ["@"] = Enum.KeyCode.Two,
@@ -613,204 +516,22 @@ local keyMappings = {
 
 local function pressKey(keys, beats, bpm)
     if _G.STOPIT then return end
-
-    local shiftApplied = false
-    local unshiftApplied = false
-    local shorts
-
-    if type(beats) == "number" then
-        shorts = false
-    else
-        shorts = true
-    end
-
-    local shiftRequired, nonShift = {}, {}
-    local ctrlRequired = false
-
-    if keys:sub(1, 5) == "Ctrl+" then
-        ctrlRequired = true
-        keys = keys:sub(6) -- remove ctrl+
-    end
-
-    -- seperate shift and no shift
+    
     for i = 1, #keys do
         local key = keys:sub(i, i)
-        table.insert(table.find(shiftKeys, key) and shiftRequired or nonShift, key)
-    end
-
-    -- Press non-shift keys first
-    for _, key in ipairs(nonShift) do
-
-        local agf = errormargin * 100 -- so 0.01 is 1
-        if math.random(1, 500) <= agf then -- 0.01 is 1/175 chance, 0.04 is 4/175 which is a 2.3%
-            VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftShift, false, game) -- shift if it applies
-            shiftApplied = true
-            print("shift applied")
-        end
-
-        coroutine.wrap(
-            function()
-                
-                if ctrlRequired then
-                    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
-                end
-
-                VirtualInputManager:SendKeyEvent(true, keyMappings[key], false, game)
-
-                if ctrlRequired then
-                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
-                end
-
-                if shiftApplied == true then
-                    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game) -- turn shift off if shift was applied
-                    shiftApplied = false
-                end
-
-                local waittime
-                local randomOff
-
-                if shorts == false then
-                    local maxRan = (beats / bpm) * 60 / 2 -- half of note hold time
-                    randomOff = math.random() * maxRan -- num from 0 to maxRan (half of note hold time)
-                    waittime = (beats / bpm) * 60 - randomOff
-                else -- beats to time, or if short notes...
-                    waittime = math.random(3, 8) / 100 -- random number from 0.03 to 0.08
-                end
-                
-                task.wait(waittime)
-                
-                VirtualInputManager:SendKeyEvent(false, keyMappings[key], false, game)
-            end
-        )()
-
-        if errormargin ~= 0 then
-            if math.random() < 0.5 then -- 50% chance to apply delay
-                task.wait(math.random() * errormargin / 3) -- make the delay 0-half of the error margin
-            end
-        else end
-    end
-
-    -- Press shift-required keys
-    if #shiftRequired > 0 then
-        for _, key in ipairs(shiftRequired) do
-            
-            VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftShift, false, game)
-            
-            local agf = errormargin * 100 -- so 0.01 is 1
-            if math.random(1, 500) <= agf then -- 0.01 is 1/200 chance, 0.04 is 4/200
-                VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game) -- unshift if it applies
-                unshiftApplied = true
-                print("unshift applied")
-            end
-
-            coroutine.wrap(
-                function()
-                    
-                    if ctrlRequired then
-                        VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
-                    end
-    
-                    VirtualInputManager:SendKeyEvent(true, keyMappings[key], false, game)
-    
-                    if ctrlRequired then
-                        VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
-                    end
-
-                    if unshiftApplied == false then
-                        VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game)
-                    end
-
-                    local waittime
-                    local randomOff
-
-                    if shorts == false then
-                        local maxRan = (beats / bpm) * 60 / 2 -- half of note hold time
-                        randomOff = math.random() * maxRan -- num from 0 to maxRan (half of note hold time)
-                        waittime = (beats / bpm) * 60 - randomOff
-                    else
-
-                        waittime = math.random(4, 12) / 100 -- beats to secs, OR random number from 0.044 to 0.12
-                    end
-                    task.wait(waittime)
-
-                    VirtualInputManager:SendKeyEvent(false, keyMappings[key], false, game)
-                end
-            )()
-
-            if errormargin ~= 0 then
-                if math.random() < 0.5 then -- 50% chance to apply delay
-                    task.wait(math.random() * errormargin / 3)
-                end
-            else
-            end
+        local keyCode = keyMappings[key]
+        
+        if keyCode then
+            coroutine.wrap(function()
+                VirtualInputManager:SendKeyEvent(true, keyCode, false, game)
+                task.wait((beats / bpm) * 60 * 0.8)
+                VirtualInputManager:SendKeyEvent(false, keyCode, false, game)
+            end)()
         end
     end
-
-    if ctrlRequired then
-        VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
-    end
-
-    if errormargin ~= 0 then
-        task.wait(math.random() * (errormargin * 2)) -- make the delay 0-half of the error margin
-    else end
 end
 
--- PRESSNOTE FUNCTION
--- PRESSNOTE FUNCTION
--- PRESSNOTE FUNCTION
-
--- note mappings to vp keys
-
-local noteMappings = {
-    ["C"] = {[1] = "1", [2] = "8", [3] = "t", [4] = "s", [5] = "l", [6] = "m"},
-    ["C#"] = {[1] = "!", [2] = "*", [3] = "T", [4] = "S", [5] = "L"},
-    ["D"] = {[1] = "2", [2] = "9", [3] = "y", [4] = "d", [5] = "z"},
-    ["D#"] = {[1] = "@", [2] = "(", [3] = "Y", [4] = "D", [5] = "Z"},
-    ["E"] = {[1] = "3", [2] = "0", [3] = "u", [4] = "f", [5] = "x"},
-    ["F"] = {[1] = "4", [2] = "q", [3] = "i", [4] = "g", [5] = "c"},
-    ["F#"] = {[1] = "$", [2] = "Q", [3] = "I", [4] = "G", [5] = "C"},
-    ["G"] = {[1] = "5", [2] = "w", [3] = "o", [4] = "h", [5] = "v"},
-    ["G#"] = {[1] = "%", [2] = "W", [3] = "O", [4] = "H", [5] = "V"},
-    ["A"] = {[1] = "6", [2] = "e", [3] = "p", [4] = "j", [5] = "b"},
-    ["A#"] = {[1] = "^", [2] = "E", [3] = "P", [4] = "J", [5] = "B"},
-    ["B"] = {[1] = "7", [2] = "r", [3] = "a", [4] = "k", [5] = "n"}
-}
-
--- press function
-function pressnote(note, octave, beats, bpm)
-    table.insert(song, {
-        type = "pressnote",
-        note = note,
-        octave = octave,
-        beats = beats
-    })
-end
-
-function pressnotetrigger(note, octave, beats, bpm)
-    if _G.STOPIT then return end
-    if pausing then
-        resumeEvent.Event:Wait()
-    end
-
-    local key = noteMappings[note] and noteMappings[note][octave]
-    if key then
-        -- press it asynchronously
-        coroutine.wrap(
-            function()
-                pressKey(key, beats, bpm) -- pass args to presskey
-            end
-        )()
-    else
-        warn("Invalid note or octave: " .. tostring(note) .. " octave " .. tostring(octave))
-    end
-end
-
--- KEYPRESS FUNCTION
--- KEYPRESS FUNCTION
--- KEYPRESS FUNCTION
-
--- the one used in most talentless songs
-function keypress(keys, beats, bpm) -- bpm will not be added to the table, because it can be changed.
+function keypress(keys, beats, bpm)
     table.insert(song, {
         type = "keypress",
         keys = keys,
@@ -818,148 +539,82 @@ function keypress(keys, beats, bpm) -- bpm will not be added to the table, becau
     })
 end
 
-function keypresstrigger(keys, beats, bpm)
-    if _G.STOPIT then return end
-    if pausing then
-        resumeEvent.Event:Wait()
-    else
-    end
-    coroutine.wrap(
-        function()
-            pressKey(keys, beats, bpm)
-        end
-    )()
-end
-
--- VELOCITY FUNCTION
--- VELOCITY FUNCTION
--- VELOCITY FUNCTION
-
-function adjustVelocity(vel)
-    table.insert(song, {
-        type = "adjustVelocity",
-        vel = vel
-    })
-end
-
-function adjustVelocitytrigger(vel)
-    if _G.STOPIT then return end
-    local velocityMap = "58qrupdhl"
-
-    vel = math.clamp(vel, 0, 1)
-
-    if vel < 0.27 then
-        topress = "2"
-    elseif vel >= 0.88 then
-        topress = "c"
-    else
-        local index = math.floor((vel - 0.27) / 0.61 * (#velocityMap - 2)) + 2
-        topress = velocityMap:sub(index, index)
-    end
-
-    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftAlt, false, game)
-    VirtualInputManager:SendKeyEvent(true, keyMappings[topress], false, game)
-    VirtualInputManager:SendKeyEvent(false, keyMappings[topress], false, game)
-    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftAlt, false, game)
-end
-
--- REST FUNCTION
--- REST FUNCTION
--- REST FUNCTION
-
-function rest(beats, bpm) -- bpm will not be added to the table, because it may be changed.
+function rest(beats, bpm)
     table.insert(song, {
         type = "rest",
         beats = beats
     })
 end
 
-function resttrigger(beats, bpm)
-    if _G.STOPIT then return end
-    
-    local waitTime = (beats / bpm) * 60
-    if errormargin == 0 then
-        task.wait(waitTime)
-    else
-        local randomOffset = (math.random() * 2 - 1) * (errormargin / 2)
-        wait(waitTime + randomOffset)
-    end
-    
-    -- update playhead stuffs
-    currentSongPosition = currentSongPosition + beats
-    updatePlayheadVisual()
-end
-
--- PEDAL FUNCTIONS
--- PEDAL FUNCTIONS
--- PEDAL FUNCTIONS
-
-function pedalDown()
+function finishedSong()
     table.insert(song, {
-        type = "pedalDown"
+        type = "finishedSong"
     })
+    finishedLoading = true
 end
 
-function pedalDowntrigger()
-    if _G.STOPIT then return end
-    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Space, false, game)
-end
+-- INICIALIZAÇÃO
+updateBpmText()
+updateErrorText()
+updateStatus("Ready - Lúcifer Scripts")
 
-function pedalUp()
-    table.insert(song, {
-        type = "pedalUp"
-    })
-end
-
-function pedalUptrigger()
-    if _G.STOPIT then return end
-    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Space, false, game)
-end
-
--- MAIN SONG LOOP
--- MAIN SONG LOOP
--- MAIN SONG LOOP
-
+-- LOOP PRINCIPAL OTIMIZADO
 _G.STOPIT = false
 
 songThread = task.spawn(function()
-    repeat wait() until finishedLoading == true
+    repeat task.wait() until finishedLoading == true
     
-    totalSongBeats = calculateTotalBeats()
-    totalSongBeats = calculateTotalBeats()
-    currentSongPosition = 0  -- cause we js started
-    updatePlayheadVisual()
-
+    -- Calcular total de beats
+    totalSongBeats = 0
+    for _, action in pairs(song) do
+        if action.type == "rest" then
+            totalSongBeats = totalSongBeats + action.beats
+        end
+    end
+    
+    currentSongPosition = 0
+    updateStatus("Playing - Lúcifer Scripts")
+    songisplaying = true
+    
     for i = 1, #song do
-        if _G.STOPIT or tempClear then halted = true break end
+        if _G.STOPIT then break end
+        
+        while pausing do
+            task.wait(0.1)
+        end
         
         local action = song[i]
         
         if action.type == "keypress" then
-            keypresstrigger(action.keys, action.beats, bpm)
+            pressKey(action.keys, action.beats, bpm)
         elseif action.type == "rest" then
-            resttrigger(action.beats, bpm)
-        elseif action.type == "adjustVelocity" then
-            adjustVelocitytrigger(action.vel)
-        elseif action.type == "pedalDown" then
-            pedalDowntrigger()
-        elseif action.type == "pedalUp" then
-            pedalUptrigger()
+            local waitTime = (action.beats / bpm) * 60
+            task.wait(waitTime)
+            currentSongPosition = currentSongPosition + action.beats
+            updateProgress()
         elseif action.type == "finishedSong" then
-            finishedSongtrigger()
-        elseif action.type == "pressnote" then
-            pressnotetrigger(action.note, action.octave, action.beats, bpm)
+            updateStatus("Song Finished - Lúcifer Scripts")
+            playSound("18595195017", 0.5)
+            NotificationLibrary:SendNotification("Success", "Song completed!", 3)
+            songisplaying = false
+            break
         end
     end
 end)
 
-watcher = task.spawn(function()
+-- WATCHER OTIMIZADO
+task.spawn(function()
     while task.wait(0.1) do
         if _G.STOPIT then
             song = {}
-            task.cancel(songThread)
-            task.cancel(watcher)
-            return
+            if songThread then
+                task.cancel(songThread)
+            end
+            break
         end
     end
 end)
+
+-- ANIMAÇÃO DE ENTRADA
+MainFrame.Size = UDim2.new(0, 0, 0, 0)
+MainFrame:TweenSize(UDim2.new(0, 400, 0, 220), "Out", "Back", 0.5, true)
