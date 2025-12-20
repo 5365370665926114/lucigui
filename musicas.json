@@ -1,0 +1,17 @@
+[
+  {
+    "name": "A Vida é uma Festa",
+    "bpm": 80,
+    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/d074b221609d6bdc89fa6351dbd9f6c7/raw/custom_song.lua"
+  },
+  {
+    "name": "Depois do Universo",
+    "bpm": 63,
+    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/c0ca6b276806fcc06c12903706d9e494/raw/custom_song.lua"
+  },
+  {
+    "name": "Outra Musica Qualquer",
+    "bpm": 120,
+    "url": "https://raw.githubusercontent.com/usuario/repositorio/main/outra_musica.lua"
+  }
+]
