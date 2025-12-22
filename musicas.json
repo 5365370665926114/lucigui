@@ -23,5 +23,10 @@
     "name": "The Walking Dead",
     "bpm": 195,
     "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/4b4a3a6af659a6414a0d762b53eea996/raw/custom_song.lua"
+  },
+   {
+    "name": "Strategy (Kpop)",
+    "bpm": 110,
+    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/1747d381931e692929b0f3d75740eab6/raw/custom_song.lua"
   }
 ]
