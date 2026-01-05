@@ -1,42 +1,2912 @@
 [
-  {
-    "name": "A Vida é uma Festa",
-    "bpm": 80,
-    "url": "https://pastebin.com/raw/weprGE1U"
-  },
-  {
-    "name": "Depois do Universo",
-    "bpm": 63,
-    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/c0ca6b276806fcc06c12903706d9e494/raw/custom_song.lua"
-  },
-  {
-    "name": "Hoist the colours",
-    "bpm": 155,
-    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/149bdea9980bd27a3688e2b323c6e175/raw/custom_song.lua"
-  },
-  {
-    "name": "Já que me ensinou a beber",
-    "bpm": 85,
-    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/e23ca43f76b81ad643994ce44b7d2860/raw/custom_song.lua"
-  },
-  {
-    "name": "The Walking Dead",
-    "bpm": 195,
-    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/4b4a3a6af659a6414a0d762b53eea996/raw/custom_song.lua"
-  },
-   {
-    "name": "Strategy (Kpop)",
-    "bpm": 110,
-    "url": "https://cdn.statically.io/gh/gist/talentless-custom-songs/1747d381931e692929b0f3d75740eab6/raw/custom_song.lua"
-  },
-   {
-    "name": "Interestellar x Experience",
-    "bpm": 100,
-    "url": "https://pastebin.com/raw/QwHVtRf5"
-  },
-  {
-    "name": "toy story",
-    "bpm": 150,
-    "url": "https://pastebin.com/raw/5LqtDRGk"
-  }
+    {
+        "name":  "2 PHUT HON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/2_PHUT_HON"
+    },
+    {
+        "name":  "505",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/505"
+    },
+    {
+        "name":  "7 WEEKS 3 DAYS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/7_WEEKS_3_DAYS"
+    },
+    {
+        "name":  "99DOT9",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/99DOT9"
+    },
+    {
+        "name":  "A CRUEL ANGELS THESIS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A_CRUEL_ANGELS_THESIS"
+    },
+    {
+        "name":  "A CYBERS WORLD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A_CYBERS_WORLD"
+    },
+    {
+        "name":  "A HOME FOR FLOWERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A_HOME_FOR_FLOWERS"
+    },
+    {
+        "name":  "A SKY FULL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A_SKY_FULL"
+    },
+    {
+        "name":  "A TALE OF SIX",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A_TALE_OF_SIX"
+    },
+    {
+        "name":  "A THOUSAND",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A_THOUSAND"
+    },
+    {
+        "name":  "A7 YEARS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A7_YEARS"
+    },
+    {
+        "name":  "A90210",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/A90210"
+    },
+    {
+        "name":  "AFRICA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AFRICA"
+    },
+    {
+        "name":  "AFTER DARK",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AFTER_DARK"
+    },
+    {
+        "name":  "AI SCREAM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AI_SCREAM"
+    },
+    {
+        "name":  "ALL GIRLS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALL_GIRLS"
+    },
+    {
+        "name":  "ALL I WANT FOR CHRISTMAS IS YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALL_I_WANT_FOR_CHRISTMAS_IS_YOU"
+    },
+    {
+        "name":  "ALL I WANT IS YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALL_I_WANT_IS_YOU"
+    },
+    {
+        "name":  "ALL MY FELLAS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALL_MY_FELLAS"
+    },
+    {
+        "name":  "ALL STAR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALL_STAR"
+    },
+    {
+        "name":  "ALL THE STARS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALL_THE_STARS"
+    },
+    {
+        "name":  "ALONE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALONE"
+    },
+    {
+        "name":  "ALTALE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ALTALE"
+    },
+    {
+        "name":  "AMOUR PLASTIQUE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AMOUR_PLASTIQUE"
+    },
+    {
+        "name":  "ANNIHILATE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ANNIHILATE"
+    },
+    {
+        "name":  "ANOTHER LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ANOTHER_LOVE"
+    },
+    {
+        "name":  "ANYONE CAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ANYONE_CAN"
+    },
+    {
+        "name":  "ARIA MATH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ARIA_MATH"
+    },
+    {
+        "name":  "AROUND THE WORLD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AROUND_THE_WORLD"
+    },
+    {
+        "name":  "ARUARIAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ARUARIAN"
+    },
+    {
+        "name":  "AS IT WAS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AS_IT_WAS"
+    },
+    {
+        "name":  "ASGORE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ASGORE"
+    },
+    {
+        "name":  "ASSUMPTIONS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ASSUMPTIONS"
+    },
+    {
+        "name":  "ASTRONAMIA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ASTRONAMIA"
+    },
+    {
+        "name":  "ATTACK OF THE KILLER QUEEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/ATTACK_OF_THE_KILLER_QUEEN"
+    },
+    {
+        "name":  "AUTUMN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AUTUMN"
+    },
+    {
+        "name":  "AVENGERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/AVENGERS"
+    },
+    {
+        "name":  "BAD APPLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BAD_APPLE"
+    },
+    {
+        "name":  "BAD HABIT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BAD_HABIT"
+    },
+    {
+        "name":  "BAD PIGGIES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BAD_PIGGIES"
+    },
+    {
+        "name":  "BARBIE GIRL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BARBIE_GIRL"
+    },
+    {
+        "name":  "BATTLE AGAINST",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BATTLE_AGAINST"
+    },
+    {
+        "name":  "BEANIE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BEANIE"
+    },
+    {
+        "name":  "BEAUTIFUL IN WHITE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BEAUTIFUL_IN_WHITE"
+    },
+    {
+        "name":  "BEAUTIFUL THINGS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BEAUTIFUL_THINGS"
+    },
+    {
+        "name":  "BEETHOVEN VIRUS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BEETHOVEN_VIRUS"
+    },
+    {
+        "name":  "BELIEVER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BELIEVER"
+    },
+    {
+        "name":  "BELLA CIAO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BELLA_CIAO"
+    },
+    {
+        "name":  "BETTER OFF ALONE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BETTER_OFF_ALONE"
+    },
+    {
+        "name":  "BIG FISH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BIG_FISH"
+    },
+    {
+        "name":  "BIG SHOT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BIG_SHOT"
+    },
+    {
+        "name":  "BINKS RUM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BINKS_RUM"
+    },
+    {
+        "name":  "BIRDLAND",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BIRDLAND"
+    },
+    {
+        "name":  "BIRDS OF A",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BIRDS_OF_A"
+    },
+    {
+        "name":  "BLACK CATCHER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLACK_CATCHER"
+    },
+    {
+        "name":  "BLACK KNIFE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLACK_KNIFE"
+    },
+    {
+        "name":  "BLINDING LIGHTS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLINDING_LIGHTS"
+    },
+    {
+        "name":  "BLOODY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLOODY"
+    },
+    {
+        "name":  "BLUE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLUE"
+    },
+    {
+        "name":  "BLUE YUNG",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLUE_YUNG"
+    },
+    {
+        "name":  "BLUEBIRD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BLUEBIRD"
+    },
+    {
+        "name":  "BOHEMIAN RHAPSODY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BOHEMIAN_RHAPSODY"
+    },
+    {
+        "name":  "BOOM BOOM BOOM BOOM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BOOM_BOOM_BOOM_BOOM"
+    },
+    {
+        "name":  "BREADY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BREADY"
+    },
+    {
+        "name":  "BUTCHER VANITY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BUTCHER_VANITY"
+    },
+    {
+        "name":  "BY YOUR SIDE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/BY_YOUR_SIDE"
+    },
+    {
+        "name":  "CALL OUT MY NAME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CALL_OUT_MY_NAME"
+    },
+    {
+        "name":  "CAN YOU HEAR EPIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CAN_YOU_HEAR_EPIC"
+    },
+    {
+        "name":  "CAN YOU HEAR THE FUCKING MUSIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CAN_YOU_HEAR_THE_FUCKING_MUSIC"
+    },
+    {
+        "name":  "CANDYLAND",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CANDYLAND"
+    },
+    {
+        "name":  "CANON D",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CANON_D"
+    },
+    {
+        "name":  "CANT HELP FALLING IN LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CANT_HELP_FALLING_IN_LOVE"
+    },
+    {
+        "name":  "CANT LET",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CANT_LET"
+    },
+    {
+        "name":  "CARELESS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CARELESS"
+    },
+    {
+        "name":  "CAROL OF THE BELLS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CAROL_OF_THE_BELLS"
+    },
+    {
+        "name":  "CAROL OF THE BELLS EPIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CAROL_OF_THE_BELLS_EPIC"
+    },
+    {
+        "name":  "CENTIMETER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CENTIMETER"
+    },
+    {
+        "name":  "CHA LA HEAD CHA LA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CHA_LA_HEAD_CHA_LA"
+    },
+    {
+        "name":  "CHAMBER OF REFLECTION",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CHAMBER_OF_REFLECTION"
+    },
+    {
+        "name":  "CHAOS KING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CHAOS_KING"
+    },
+    {
+        "name":  "CHIISANA KOI NO UTA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CHIISANA_KOI_NO_UTA"
+    },
+    {
+        "name":  "CHILDREN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CHILDREN"
+    },
+    {
+        "name":  "CHRISTMAS KIDS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CHRISTMAS_KIDS"
+    },
+    {
+        "name":  "CLAIR DE LUNE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CLAIR_DE_LUNE"
+    },
+    {
+        "name":  "CLOCKS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CLOCKS"
+    },
+    {
+        "name":  "CLOSE EYES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CLOSE_EYES"
+    },
+    {
+        "name":  "CLOUD 9",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CLOUD_9"
+    },
+    {
+        "name":  "CLUBSTEP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CLUBSTEP"
+    },
+    {
+        "name":  "COCONUT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/COCONUT"
+    },
+    {
+        "name":  "COMEDY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/COMEDY"
+    },
+    {
+        "name":  "COMPTINE DUN AUTRE ETE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/COMPTINE_DUN_AUTRE_ETE"
+    },
+    {
+        "name":  "CONCERTO OP30 NO3",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CONCERTO_OP30_NO3"
+    },
+    {
+        "name":  "CONGRATULATIONS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CONGRATULATIONS"
+    },
+    {
+        "name":  "COUNTING STARS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/COUNTING_STARS"
+    },
+    {
+        "name":  "CRAB RAVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CRAB_RAVE"
+    },
+    {
+        "name":  "CRADLES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CRADLES"
+    },
+    {
+        "name":  "CRAZY FROG",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CRAZY_FROG"
+    },
+    {
+        "name":  "CREEP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CREEP"
+    },
+    {
+        "name":  "CREEPIN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CREEPIN"
+    },
+    {
+        "name":  "CROSSING FIELD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/1/CROSSING_FIELD"
+    },
+    {
+        "name":  "CRUCIFIED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/CRUCIFIED"
+    },
+    {
+        "name":  "CRY FOR ME MICHITA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/CRY_FOR_ME_MICHITA"
+    },
+    {
+        "name":  "CUPID",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/CUPID"
+    },
+    {
+        "name":  "DAD BATTLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DAD_BATTLE"
+    },
+    {
+        "name":  "DAISY BELL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DAISY_BELL"
+    },
+    {
+        "name":  "DAMNED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DAMNED"
+    },
+    {
+        "name":  "DANDELIONS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DANDELIONS"
+    },
+    {
+        "name":  "DARK BEACH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DARK_BEACH"
+    },
+    {
+        "name":  "DARK IS THE NIGHT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DARK_IS_THE_NIGHT"
+    },
+    {
+        "name":  "DAWN OF",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DAWN_OF"
+    },
+    {
+        "name":  "DAYLIGHT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DAYLIGHT"
+    },
+    {
+        "name":  "DEADLOCKED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DEADLOCKED"
+    },
+    {
+        "name":  "DEATH BED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DEATH_BED"
+    },
+    {
+        "name":  "DEATH WALTZ",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DEATH_WALTZ"
+    },
+    {
+        "name":  "DECK THE HALLS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DECK_THE_HALLS"
+    },
+    {
+        "name":  "DEPARTURE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DEPARTURE"
+    },
+    {
+        "name":  "DESPACITO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DESPACITO"
+    },
+    {
+        "name":  "DETROIT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DETROIT"
+    },
+    {
+        "name":  "DEXTER BLOOD THEME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DEXTER_BLOOD_THEME"
+    },
+    {
+        "name":  "DIE FOR YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIE_FOR_YOU"
+    },
+    {
+        "name":  "DIE IRAE III",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIE_IRAE_III"
+    },
+    {
+        "name":  "DIE WITH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIE_WITH"
+    },
+    {
+        "name":  "DIED IN YOUR ARMS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIED_IN_YOUR_ARMS"
+    },
+    {
+        "name":  "DIES IRAE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIES_IRAE"
+    },
+    {
+        "name":  "DIES IRAE III 2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIES_IRAE_III_2"
+    },
+    {
+        "name":  "DIRTMOUTH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DIRTMOUTH"
+    },
+    {
+        "name":  "DOG SONG",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DOG_SONG"
+    },
+    {
+        "name":  "DONT STOP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DONT_STOP"
+    },
+    {
+        "name":  "DRAGOSTEA DIN TEI",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DRAGOSTEA_DIN_TEI"
+    },
+    {
+        "name":  "DRAMAM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DRAMAM"
+    },
+    {
+        "name":  "DREAM FL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DREAM_FL"
+    },
+    {
+        "name":  "DREAM ON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DREAM_ON"
+    },
+    {
+        "name":  "DROWNING LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DROWNING_LOVE"
+    },
+    {
+        "name":  "DRY HANDS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DRY_HANDS"
+    },
+    {
+        "name":  "DUMB DUMB",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DUMB_DUMB"
+    },
+    {
+        "name":  "DUVET",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/DUVET"
+    },
+    {
+        "name":  "EASY ON ME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/EASY_ON_ME"
+    },
+    {
+        "name":  "ELEVATOR JAM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ELEVATOR_JAM"
+    },
+    {
+        "name":  "ELEVATOR JAM 2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ELEVATOR_JAM_2"
+    },
+    {
+        "name":  "ENEMY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ENEMY"
+    },
+    {
+        "name":  "ENIGMATIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ENIGMATIC"
+    },
+    {
+        "name":  "ENTRY OF THE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ENTRY_OF_THE"
+    },
+    {
+        "name":  "ERIKA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ERIKA"
+    },
+    {
+        "name":  "ETHEREAL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ETHEREAL"
+    },
+    {
+        "name":  "ETUDE NO3 UN SOSPIRO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/ETUDE_NO3_UN_SOSPIRO"
+    },
+    {
+        "name":  "EVERGREEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/EVERGREEN"
+    },
+    {
+        "name":  "EXPERIENCE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/EXPERIENCE"
+    },
+    {
+        "name":  "EXPERIENCE FLOWS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/EXPERIENCE_FLOWS"
+    },
+    {
+        "name":  "f",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/f"
+    },
+    {
+        "name":  "F1",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/F1"
+    },
+    {
+        "name":  "FADED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FADED"
+    },
+    {
+        "name":  "FALLEN DOWN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FALLEN_DOWN"
+    },
+    {
+        "name":  "FANTAISIE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FANTAISIE"
+    },
+    {
+        "name":  "FAST",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FAST"
+    },
+    {
+        "name":  "FEEL GOOD INC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FEEL_GOOD_INC"
+    },
+    {
+        "name":  "FIELD OF HOPES AND DREAMS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FIELD_OF_HOPES_AND_DREAMS"
+    },
+    {
+        "name":  "FIELD OF MEMORIES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FIELD_OF_MEMORIES"
+    },
+    {
+        "name":  "FINAL DUET",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FINAL_DUET"
+    },
+    {
+        "name":  "FINALE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FINALE"
+    },
+    {
+        "name":  "FIVE NIGHTS 1",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FIVE_NIGHTS_1"
+    },
+    {
+        "name":  "FLARE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FLARE"
+    },
+    {
+        "name":  "FLASHING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FLASHING"
+    },
+    {
+        "name":  "FLIGHT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FLIGHT"
+    },
+    {
+        "name":  "FLIGHT OF THE BUMBLEBEE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FLIGHT_OF_THE_BUMBLEBEE"
+    },
+    {
+        "name":  "FLY ME TO THE MOON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FLY_ME_TO_THE_MOON"
+    },
+    {
+        "name":  "FLY MY WINGS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FLY_MY_WINGS"
+    },
+    {
+        "name":  "FOR THE DAMAGED CODA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FOR_THE_DAMAGED_CODA"
+    },
+    {
+        "name":  "FOR THE DAMAGED CODA 2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FOR_THE_DAMAGED_CODA_2"
+    },
+    {
+        "name":  "FR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FR"
+    },
+    {
+        "name":  "FREAKS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FREAKS"
+    },
+    {
+        "name":  "FREEDOM DIVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FREEDOM_DIVE"
+    },
+    {
+        "name":  "FRIENDS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FRIENDS"
+    },
+    {
+        "name":  "FUKASHIGI",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FUKASHIGI"
+    },
+    {
+        "name":  "FUNK ESTRANHO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FUNK_ESTRANHO"
+    },
+    {
+        "name":  "FUR ELISE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/FUR_ELISE"
+    },
+    {
+        "name":  "GANGSTAS PARADISE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GANGSTAS_PARADISE"
+    },
+    {
+        "name":  "GEOMETRICAL DOMINATOR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GEOMETRICAL_DOMINATOR"
+    },
+    {
+        "name":  "GEOMETRY DASH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GEOMETRY_DASH"
+    },
+    {
+        "name":  "GIGACHAD THEME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GIGACHAD_THEME"
+    },
+    {
+        "name":  "GIMME GIMME GIMME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GIMME_GIMME_GIMME"
+    },
+    {
+        "name":  "GIORNO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GIORNO"
+    },
+    {
+        "name":  "GIVE UP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GIVE_UP"
+    },
+    {
+        "name":  "GLASSY SKY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GLASSY_SKY"
+    },
+    {
+        "name":  "GODS PLAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GODS_PLAN"
+    },
+    {
+        "name":  "GOLDEN BROW",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GOLDEN_BROW"
+    },
+    {
+        "name":  "GOLDEN HOUR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GOLDEN_HOUR"
+    },
+    {
+        "name":  "GONE ANGELS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GONE_ANGELS"
+    },
+    {
+        "name":  "GOOD MORNING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GOOD_MORNING"
+    },
+    {
+        "name":  "GOOFY AHH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GOOFY_AHH"
+    },
+    {
+        "name":  "GRAVITY FALLS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GRAVITY_FALLS"
+    },
+    {
+        "name":  "GUREN NO YUMIYA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GUREN_NO_YUMIYA"
+    },
+    {
+        "name":  "GURENGE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GURENGE"
+    },
+    {
+        "name":  "GYMNOPEDIE NO1",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GYMNOPEDIE_NO1"
+    },
+    {
+        "name":  "GYMNOPEDIE NO3",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GYMNOPEDIE_NO3"
+    },
+    {
+        "name":  "GYMONPEDIE NO2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GYMONPEDIE_NO2"
+    },
+    {
+        "name":  "GYPSY WOMAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/GYPSY_WOMAN"
+    },
+    {
+        "name":  "HAGGSTORM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/HAGGSTORM"
+    },
+    {
+        "name":  "HANA NI NATTE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/HANA_NI_NATTE"
+    },
+    {
+        "name":  "HAPPIER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/HAPPIER"
+    },
+    {
+        "name":  "HATSUNE MIKU NO GEKISHOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/2/HATSUNE_MIKU_NO_GEKISHOU"
+    },
+    {
+        "name":  "HAZY MOON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HAZY_MOON"
+    },
+    {
+        "name":  "HEART AFIRE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HEART_AFIRE"
+    },
+    {
+        "name":  "HEARTACHE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HEARTACHE"
+    },
+    {
+        "name":  "HEAT WAVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HEAT_WAVE"
+    },
+    {
+        "name":  "HEATHENS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HEATHENS"
+    },
+    {
+        "name":  "HELLO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HELLO"
+    },
+    {
+        "name":  "HELLO ADELE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HELLO_ADELE"
+    },
+    {
+        "name":  "HERE I COME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HERE_I_COME"
+    },
+    {
+        "name":  "HERE TO STAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HERE_TO_STAY"
+    },
+    {
+        "name":  "HERE WITH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HERE_WITH"
+    },
+    {
+        "name":  "HERO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HERO"
+    },
+    {
+        "name":  "HES A PIRATE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HES_A_PIRATE"
+    },
+    {
+        "name":  "HEY KIDS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HEY_KIDS"
+    },
+    {
+        "name":  "HH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HH"
+    },
+    {
+        "name":  "HIDE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HIDE"
+    },
+    {
+        "name":  "HIGH HOPES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HIGH_HOPES"
+    },
+    {
+        "name":  "HIMITSU KOI GOKORO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HIMITSU_KOI_GOKORO"
+    },
+    {
+        "name":  "HIS THEME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HIS_THEME"
+    },
+    {
+        "name":  "HIT THE ROAD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HIT_THE_ROAD"
+    },
+    {
+        "name":  "HOLLOW KNIGHT MAIN THEME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOLLOW_KNIGHT_MAIN_THEME"
+    },
+    {
+        "name":  "HOME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOME"
+    },
+    {
+        "name":  "HOPE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOPE"
+    },
+    {
+        "name":  "HOPES DREAMS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOPES_DREAMS"
+    },
+    {
+        "name":  "HOTLINE BLING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOTLINE_BLING"
+    },
+    {
+        "name":  "HOUSE OF",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOUSE_OF"
+    },
+    {
+        "name":  "HOWLS MOVING CASTLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOWLS_MOVING_CASTLE"
+    },
+    {
+        "name":  "HOWLS MOVING CASTLE 2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HOWLS_MOVING_CASTLE_2"
+    },
+    {
+        "name":  "HUNGARIAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/HUNGARIAN"
+    },
+    {
+        "name":  "I BROKE A STRING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_BROKE_A_STRING"
+    },
+    {
+        "name":  "I CANT HANDLE CHANGE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_CANT_HANDLE_CHANGE"
+    },
+    {
+        "name":  "I HATE U I LOVE U",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_HATE_U_I_LOVE_U"
+    },
+    {
+        "name":  "I LIKE THE WAY YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_LIKE_THE_WAY_YOU"
+    },
+    {
+        "name":  "I REALLY WANT TO STAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_REALLY_WANT_TO_STAY"
+    },
+    {
+        "name":  "I WANT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_WANT"
+    },
+    {
+        "name":  "I WONDER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/I_WONDER"
+    },
+    {
+        "name":  "ICARUS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ICARUS"
+    },
+    {
+        "name":  "IDEA 1",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDEA_1"
+    },
+    {
+        "name":  "IDEA 10",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDEA_10"
+    },
+    {
+        "name":  "IDEA 22",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDEA_22"
+    },
+    {
+        "name":  "IDEA 9",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDEA_9"
+    },
+    {
+        "name":  "IDGAF",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDGAF"
+    },
+    {
+        "name":  "IDOL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDOL"
+    },
+    {
+        "name":  "IDOL EPIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IDOL_EPIC"
+    },
+    {
+        "name":  "IF I AM WITH YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IF_I_AM_WITH_YOU"
+    },
+    {
+        "name":  "IM INVINCIBLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IM_INVINCIBLE"
+    },
+    {
+        "name":  "IM NOT THE ONLY ONE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IM_NOT_THE_ONLY_ONE"
+    },
+    {
+        "name":  "IM STILL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IM_STILL"
+    },
+    {
+        "name":  "IMMORTAL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IMMORTAL"
+    },
+    {
+        "name":  "IN HELL WE LIVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IN_HELL_WE_LIVE"
+    },
+    {
+        "name":  "IN THE NAME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IN_THE_NAME"
+    },
+    {
+        "name":  "IN THE POOL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IN_THE_POOL"
+    },
+    {
+        "name":  "INSANE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/INSANE"
+    },
+    {
+        "name":  "INTERSTELLAR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/INTERSTELLAR"
+    },
+    {
+        "name":  "INVISIBLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/INVISIBLE"
+    },
+    {
+        "name":  "IRIS OUT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IRIS_OUT"
+    },
+    {
+        "name":  "ISABELLAS LULLABY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ISABELLAS_LULLABY"
+    },
+    {
+        "name":  "ISOLATION",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ISOLATION"
+    },
+    {
+        "name":  "IT MEANS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/IT_MEANS"
+    },
+    {
+        "name":  "ITS BEEN SO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ITS_BEEN_SO"
+    },
+    {
+        "name":  "ITS JUST A BURNING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ITS_JUST_A_BURNING"
+    },
+    {
+        "name":  "ITS RAINING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ITS_RAINING"
+    },
+    {
+        "name":  "ITS RAINING SOMEWHERE ELSE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ITS_RAINING_SOMEWHERE_ELSE"
+    },
+    {
+        "name":  "ITS TV TIME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/ITS_TV_TIME"
+    },
+    {
+        "name":  "JINGLE BELL ROCK",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/JINGLE_BELL_ROCK"
+    },
+    {
+        "name":  "JINGLE BELLS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/JINGLE_BELLS"
+    },
+    {
+        "name":  "JOCELYN FLORES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/JOCELYN_FLORES"
+    },
+    {
+        "name":  "JUDAS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/JUDAS"
+    },
+    {
+        "name":  "JUST THE TWO OF US",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/JUST_THE_TWO_OF_US"
+    },
+    {
+        "name":  "KAIKAI KITAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KAIKAI_KITAN"
+    },
+    {
+        "name":  "KAMADO TANJIRO NO UTA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KAMADO_TANJIRO_NO_UTA"
+    },
+    {
+        "name":  "KAWAIKUTEGOMEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KAWAIKUTEGOMEN"
+    },
+    {
+        "name":  "KEEP UP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KEEP_UP"
+    },
+    {
+        "name":  "KEROSENE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KEROSENE"
+    },
+    {
+        "name":  "KEY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KEY"
+    },
+    {
+        "name":  "KICK BACK",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KICK_BACK"
+    },
+    {
+        "name":  "KISS OF DEATH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KISS_OF_DEATH"
+    },
+    {
+        "name":  "KISS THE RAIN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/KISS_THE_RAIN"
+    },
+    {
+        "name":  "L",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/L"
+    },
+    {
+        "name":  "LA CAMPANELLA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LA_CAMPANELLA"
+    },
+    {
+        "name":  "LACRIMOSA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LACRIMOSA"
+    },
+    {
+        "name":  "LALALA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LALALA"
+    },
+    {
+        "name":  "LAMOUR TOUJOURS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LAMOUR_TOUJOURS"
+    },
+    {
+        "name":  "LAST CHRISTMAS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LAST_CHRISTMAS"
+    },
+    {
+        "name":  "LAST GOODBYE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LAST_GOODBYE"
+    },
+    {
+        "name":  "LAVENDER TOWN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LAVENDER_TOWN"
+    },
+    {
+        "name":  "LE MONDE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LE_MONDE"
+    },
+    {
+        "name":  "LEAVE THE DOOR OPEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LEAVE_THE_DOOR_OPEN"
+    },
+    {
+        "name":  "LENAI",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LENAI"
+    },
+    {
+        "name":  "LET HER GO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_HER_GO"
+    },
+    {
+        "name":  "LET IT GO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_IT_GO"
+    },
+    {
+        "name":  "LET IT GO X LET HER GO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_IT_GO_X_LET_HER_GO"
+    },
+    {
+        "name":  "LET IT HAPPEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_IT_HAPPEN"
+    },
+    {
+        "name":  "LET ME DOWN SLOWLY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_ME_DOWN_SLOWLY"
+    },
+    {
+        "name":  "LET ME LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_ME_LOVE"
+    },
+    {
+        "name":  "LET YOU BREAK MY HEART AGAIN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LET_YOU_BREAK_MY_HEART_AGAIN"
+    },
+    {
+        "name":  "LEVAN POLKKA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LEVAN_POLKKA"
+    },
+    {
+        "name":  "LEVELS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LEVELS"
+    },
+    {
+        "name":  "LIEBESTRAUM NO3",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LIEBESTRAUM_NO3"
+    },
+    {
+        "name":  "LIFE WILL CHANGE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LIFE_WILL_CHANGE"
+    },
+    {
+        "name":  "LIGHT SWITCH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/3/LIGHT_SWITCH"
+    },
+    {
+        "name":  "LIGHTS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LIGHTS"
+    },
+    {
+        "name":  "LIKE HIM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LIKE_HIM"
+    },
+    {
+        "name":  "LIKE HIM BEST",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LIKE_HIM_BEST"
+    },
+    {
+        "name":  "LIVING MICE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LIVING_MICE"
+    },
+    {
+        "name":  "LOST LIBRARY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOST_LIBRARY"
+    },
+    {
+        "name":  "LOST UMB",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOST_UMB"
+    },
+    {
+        "name":  "LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOVE"
+    },
+    {
+        "name":  "LOVE STORY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOVE_STORY"
+    },
+    {
+        "name":  "LOVELY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOVELY"
+    },
+    {
+        "name":  "LOVELY B",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOVELY_B"
+    },
+    {
+        "name":  "LOVER IS A DAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LOVER_IS_A_DAY"
+    },
+    {
+        "name":  "LUTHER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LUTHER"
+    },
+    {
+        "name":  "LUX AETERNA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/LUX_AETERNA"
+    },
+    {
+        "name":  "MA MEILLEUR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MA_MEILLEUR"
+    },
+    {
+        "name":  "MAGICAL CURE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MAGICAL_CURE"
+    },
+    {
+        "name":  "MANGOMANGOMANGO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MANGOMANGOMANGO"
+    },
+    {
+        "name":  "MARI BOSS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MARI_BOSS"
+    },
+    {
+        "name":  "MARRIED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MARRIED"
+    },
+    {
+        "name":  "MARY ON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MARY_ON"
+    },
+    {
+        "name":  "MASTER OF PUPPETS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MASTER_OF_PUPPETS"
+    },
+    {
+        "name":  "MEGALOVANIA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MEGALOVANIA"
+    },
+    {
+        "name":  "MERRY CHRISTMAS MR LAWRENCE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MERRY_CHRISTMAS_MR_LAWRENCE"
+    },
+    {
+        "name":  "METAMORPH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/METAMORPH"
+    },
+    {
+        "name":  "MICE ON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MICE_ON"
+    },
+    {
+        "name":  "MICHAEL MYERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MICHAEL_MYERS"
+    },
+    {
+        "name":  "MIDDLE OF THE NIGHT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MIDDLE_OF_THE_NIGHT"
+    },
+    {
+        "name":  "MII",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MII"
+    },
+    {
+        "name":  "MIKU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MIKU"
+    },
+    {
+        "name":  "MINECRAFT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MINECRAFT"
+    },
+    {
+        "name":  "MINGLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MINGLE"
+    },
+    {
+        "name":  "MONODY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MONODY"
+    },
+    {
+        "name":  "MONTAGEM CORAL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MONTAGEM_CORAL"
+    },
+    {
+        "name":  "MONTAGEM TOMADA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MONTAGEM_TOMADA"
+    },
+    {
+        "name":  "MONTAGEM XONADA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MONTAGEM_XONADA"
+    },
+    {
+        "name":  "MOOD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MOOD"
+    },
+    {
+        "name":  "MOOG CITY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MOOG_CITY"
+    },
+    {
+        "name":  "MOONLIGHT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MOONLIGHT"
+    },
+    {
+        "name":  "MORNING MOOD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MORNING_MOOD"
+    },
+    {
+        "name":  "MRS MAGIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MRS_MAGIC"
+    },
+    {
+        "name":  "MULTO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MULTO"
+    },
+    {
+        "name":  "MY CASTLE TOWN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_CASTLE_TOWN"
+    },
+    {
+        "name":  "MY EYES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_EYES"
+    },
+    {
+        "name":  "MY HEART WILL GO ON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_HEART_WILL_GO_ON"
+    },
+    {
+        "name":  "MY KIND OF WOMAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_KIND_OF_WOMAN"
+    },
+    {
+        "name":  "MY LOVE ALL MINE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_LOVE_ALL_MINE"
+    },
+    {
+        "name":  "MY ORDINARY LIFE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_ORDINARY_LIFE"
+    },
+    {
+        "name":  "MY WAR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_WAR"
+    },
+    {
+        "name":  "MY WAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/MY_WAY"
+    },
+    {
+        "name":  "NERVES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NERVES"
+    },
+    {
+        "name":  "NEVER BE ALONE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NEVER_BE_ALONE"
+    },
+    {
+        "name":  "NEVER MEANT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NEVER_MEANT"
+    },
+    {
+        "name":  "NEVER SEE ME AGAIN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NEVER_SEE_ME_AGAIN"
+    },
+    {
+        "name":  "NEW COMPUTERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NEW_COMPUTERS"
+    },
+    {
+        "name":  "NEW HOME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NEW_HOME"
+    },
+    {
+        "name":  "NIGHT DANCER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NIGHT_DANCER"
+    },
+    {
+        "name":  "NO SURPRISES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NO_SURPRISES"
+    },
+    {
+        "name":  "NOCTURNE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NOCTURNE"
+    },
+    {
+        "name":  "NOPE YOUR TOO LATE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NOPE_YOUR_TOO_LATE"
+    },
+    {
+        "name":  "NOT A SLACKER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NOT_A_SLACKER"
+    },
+    {
+        "name":  "NOT LIKE US",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NOT_LIKE_US"
+    },
+    {
+        "name":  "NOTHING ELSE MATTERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NOTHING_ELSE_MATTERS"
+    },
+    {
+        "name":  "NOTION",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NOTION"
+    },
+    {
+        "name":  "NUMBERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NUMBERS"
+    },
+    {
+        "name":  "NYAN CAT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NYAN_CAT"
+    },
+    {
+        "name":  "NYEH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/NYEH"
+    },
+    {
+        "name":  "OBLIVION",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/OBLIVION"
+    },
+    {
+        "name":  "OLD DOLL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/OLD_DOLL"
+    },
+    {
+        "name":  "OLD TOWN ROAD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/OLD_TOWN_ROAD"
+    },
+    {
+        "name":  "ON MY WAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ON_MY_WAY"
+    },
+    {
+        "name":  "ONCE UPON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ONCE_UPON"
+    },
+    {
+        "name":  "ONCE UPON A DECEMBER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ONCE_UPON_A_DECEMBER"
+    },
+    {
+        "name":  "ONE DANCE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ONE_DANCE"
+    },
+    {
+        "name":  "ONE OF THE GIRLS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ONE_OF_THE_GIRLS"
+    },
+    {
+        "name":  "ONE SUMMERS DAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ONE_SUMMERS_DAY"
+    },
+    {
+        "name":  "ORDER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ORDER"
+    },
+    {
+        "name":  "ORDINARY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/ORDINARY"
+    },
+    {
+        "name":  "OVERTAKEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/OVERTAKEN"
+    },
+    {
+        "name":  "PARADISE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PARADISE"
+    },
+    {
+        "name":  "PASILYO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PASILYO"
+    },
+    {
+        "name":  "PASSACAGLIA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PASSACAGLIA"
+    },
+    {
+        "name":  "PASSO BEM SOLTO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PASSO_BEM_SOLTO"
+    },
+    {
+        "name":  "PAST LIVES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PAST_LIVES"
+    },
+    {
+        "name":  "PATHETIQUE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PATHETIQUE"
+    },
+    {
+        "name":  "PAYPHONE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PAYPHONE"
+    },
+    {
+        "name":  "PEACHES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PEACHES"
+    },
+    {
+        "name":  "PIANO MAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PIANO_MAN"
+    },
+    {
+        "name":  "PIXEL PEEKER POLKA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PIXEL_PEEKER_POLKA"
+    },
+    {
+        "name":  "PLANT VS ZOMBIES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PLANT_VS_ZOMBIES"
+    },
+    {
+        "name":  "PLEAD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PLEAD"
+    },
+    {
+        "name":  "POKEMON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/POKEMON"
+    },
+    {
+        "name":  "POKEMON RED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/POKEMON_RED"
+    },
+    {
+        "name":  "POLONAISE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/POLONAISE"
+    },
+    {
+        "name":  "PRAYER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PRAYER"
+    },
+    {
+        "name":  "PRELUDE NO2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PRELUDE_NO2"
+    },
+    {
+        "name":  "PRELUDE OP28",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PRELUDE_OP28"
+    },
+    {
+        "name":  "PROPOSE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/PROPOSE"
+    },
+    {
+        "name":  "RACING INTO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/RACING_INTO"
+    },
+    {
+        "name":  "RAIN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/RAIN"
+    },
+    {
+        "name":  "RANSOM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/RANSOM"
+    },
+    {
+        "name":  "RAT DANCE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/4/RAT_DANCE"
+    },
+    {
+        "name":  "READY OR NOT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/READY_OR_NOT"
+    },
+    {
+        "name":  "REFLECTIONS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/REFLECTIONS"
+    },
+    {
+        "name":  "RENAI CIRCULATION",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RENAI_CIRCULATION"
+    },
+    {
+        "name":  "RESONANCE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RESONANCE"
+    },
+    {
+        "name":  "REVENGE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/REVENGE"
+    },
+    {
+        "name":  "REVOLUTIONARY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/REVOLUTIONARY"
+    },
+    {
+        "name":  "RIGHTEOUS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RIGHTEOUS"
+    },
+    {
+        "name":  "RIPTIDE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RIPTIDE"
+    },
+    {
+        "name":  "RISE UP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RISE_UP"
+    },
+    {
+        "name":  "RISES THE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RISES_THE"
+    },
+    {
+        "name":  "RIVER FLOWS IN YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RIVER_FLOWS_IN_YOU"
+    },
+    {
+        "name":  "ROBBERY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/ROBBERY"
+    },
+    {
+        "name":  "ROI",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/ROI"
+    },
+    {
+        "name":  "ROMANTIC HOMICIDE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/ROMANTIC_HOMICIDE"
+    },
+    {
+        "name":  "RUDE BUSTER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUDE_BUSTER"
+    },
+    {
+        "name":  "RUDER BUSTER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUDER_BUSTER"
+    },
+    {
+        "name":  "RUE DES TROIS FRERES",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUE_DES_TROIS_FRERES"
+    },
+    {
+        "name":  "RUINS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUINS"
+    },
+    {
+        "name":  "RUNAWAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUNAWAY"
+    },
+    {
+        "name":  "RUNAWAY AURORA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUNAWAY_AURORA"
+    },
+    {
+        "name":  "RUNNING IN THE 90S",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUNNING_IN_THE_90S"
+    },
+    {
+        "name":  "RUNNING UP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUNNING_UP"
+    },
+    {
+        "name":  "RUSH C",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUSH_C"
+    },
+    {
+        "name":  "RUSH E",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUSH_E"
+    },
+    {
+        "name":  "RUSH F",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUSH_F"
+    },
+    {
+        "name":  "RUSH G",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUSH_G"
+    },
+    {
+        "name":  "RUSH OF LIFE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/RUSH_OF_LIFE"
+    },
+    {
+        "name":  "SADNESS AND SORROW",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SADNESS_AND_SORROW"
+    },
+    {
+        "name":  "SAILOR SONG",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SAILOR_SONG"
+    },
+    {
+        "name":  "SAITAMAS THEME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SAITAMAS_THEME"
+    },
+    {
+        "name":  "SANS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SANS"
+    },
+    {
+        "name":  "SANTA CLAUS IS COMING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SANTA_CLAUS_IS_COMING"
+    },
+    {
+        "name":  "SAVE YOUR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SAVE_YOUR"
+    },
+    {
+        "name":  "SCARLET FOREST",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SCARLET_FOREST"
+    },
+    {
+        "name":  "SEE YOU AGAIN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SEE_YOU_AGAIN"
+    },
+    {
+        "name":  "SEE YOU AGAIN CHARLIE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SEE_YOU_AGAIN_CHARLIE"
+    },
+    {
+        "name":  "SERENADE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SERENADE"
+    },
+    {
+        "name":  "SHAPE OF",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SHAPE_OF"
+    },
+    {
+        "name":  "SHIAWASE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SHIAWASE"
+    },
+    {
+        "name":  "SHIKAIRO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SHIKAIRO"
+    },
+    {
+        "name":  "SHINZOU WO SASEGEYO",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SHINZOU_WO_SASEGEYO"
+    },
+    {
+        "name":  "SHOP",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SHOP"
+    },
+    {
+        "name":  "SICK OF U",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SICK_OF_U"
+    },
+    {
+        "name":  "SILHOUETTE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SILHOUETTE"
+    },
+    {
+        "name":  "SILLY BILLY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SILLY_BILLY"
+    },
+    {
+        "name":  "SINKING TOWN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SINKING_TOWN"
+    },
+    {
+        "name":  "SKELETAL SHENANIGANS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SKELETAL_SHENANIGANS"
+    },
+    {
+        "name":  "SKYFALL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SKYFALL"
+    },
+    {
+        "name":  "SLAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SLAY"
+    },
+    {
+        "name":  "SLOW DANCING IN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SLOW_DANCING_IN"
+    },
+    {
+        "name":  "SNOWFALL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SNOWFALL"
+    },
+    {
+        "name":  "SNOWMAN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SNOWMAN"
+    },
+    {
+        "name":  "SNOWY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SNOWY"
+    },
+    {
+        "name":  "SOLAS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SOLAS"
+    },
+    {
+        "name":  "SOMEBODY THAT I USED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SOMEBODY_THAT_I_USED"
+    },
+    {
+        "name":  "SOMETHING JUST",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SOMETHING_JUST"
+    },
+    {
+        "name":  "SONG THAT MIGHT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SONG_THAT_MIGHT"
+    },
+    {
+        "name":  "SOVIET UNION ANTHEM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SOVIET_UNION_ANTHEM"
+    },
+    {
+        "name":  "SPACE SONG",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPACE_SONG"
+    },
+    {
+        "name":  "SPARKLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPARKLE"
+    },
+    {
+        "name":  "SPAWN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPAWN"
+    },
+    {
+        "name":  "SPEAR OF",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPEAR_OF"
+    },
+    {
+        "name":  "SPECIALZ",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPECIALZ"
+    },
+    {
+        "name":  "SPECTRE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPECTRE"
+    },
+    {
+        "name":  "SPEED OF",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPEED_OF"
+    },
+    {
+        "name":  "SPIDER DANCE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPIDER_DANCE"
+    },
+    {
+        "name":  "SPOOKY SCARY SKELETONS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPOOKY_SCARY_SKELETONS"
+    },
+    {
+        "name":  "SPRING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SPRING"
+    },
+    {
+        "name":  "STAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STAY"
+    },
+    {
+        "name":  "STAYIN ALIVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STAYIN_ALIVE"
+    },
+    {
+        "name":  "STEREO HEARTS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STEREO_HEARTS"
+    },
+    {
+        "name":  "STEREO LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STEREO_LOVE"
+    },
+    {
+        "name":  "STEREO MADNESS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STEREO_MADNESS"
+    },
+    {
+        "name":  "STILL DRE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STILL_DRE"
+    },
+    {
+        "name":  "STRANGER THINGS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STRANGER_THINGS"
+    },
+    {
+        "name":  "STRANGERS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STRANGERS"
+    },
+    {
+        "name":  "STRESSED OUT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/STRESSED_OUT"
+    },
+    {
+        "name":  "SUBWOOFER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUBWOOFER"
+    },
+    {
+        "name":  "SUGAR PLUM",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUGAR_PLUM"
+    },
+    {
+        "name":  "SUMMER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUMMER"
+    },
+    {
+        "name":  "SUNFLOWER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUNFLOWER"
+    },
+    {
+        "name":  "SUPER IDOL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUPER_IDOL"
+    },
+    {
+        "name":  "SUPER MARIOS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUPER_MARIOS"
+    },
+    {
+        "name":  "SUPER SMASH BROS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUPER_SMASH_BROS"
+    },
+    {
+        "name":  "SURVIVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SURVIVE"
+    },
+    {
+        "name":  "SUZUME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SUZUME"
+    },
+    {
+        "name":  "SWAN LAKE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SWAN_LAKE"
+    },
+    {
+        "name":  "SWEATER WEATHER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SWEATER_WEATHER"
+    },
+    {
+        "name":  "SWEDEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SWEDEN"
+    },
+    {
+        "name":  "SWEET DREAMS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SWEET_DREAMS"
+    },
+    {
+        "name":  "SWIMMING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SWIMMING"
+    },
+    {
+        "name":  "SYMPHONY NO5",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/SYMPHONY_NO5"
+    },
+    {
+        "name":  "TAKE FIVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/TAKE_FIVE"
+    },
+    {
+        "name":  "TAKE ON ME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/TAKE_ON_ME"
+    },
+    {
+        "name":  "TEK IT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/TEK_IT"
+    },
+    {
+        "name":  "TEST DRIVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/TEST_DRIVE"
+    },
+    {
+        "name":  "THANG DIEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/THANG_DIEN"
+    },
+    {
+        "name":  "THATS WHAT I WANT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/THATS_WHAT_I_WANT"
+    },
+    {
+        "name":  "THE ABYSS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/THE_ABYSS"
+    },
+    {
+        "name":  "THE AMAZING DIGITAL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/5/THE_AMAZING_DIGITAL"
+    },
+    {
+        "name":  "THE BEGINNING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_BEGINNING"
+    },
+    {
+        "name":  "THE BEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_BEN"
+    },
+    {
+        "name":  "THE BLUE DANUBE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_BLUE_DANUBE"
+    },
+    {
+        "name":  "THE ECSTASY OF GOLD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_ECSTASY_OF_GOLD"
+    },
+    {
+        "name":  "THE ENTERTAINER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_ENTERTAINER"
+    },
+    {
+        "name":  "THE GREAT FAIRY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_GREAT_FAIRY"
+    },
+    {
+        "name":  "THE LEGEND",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_LEGEND"
+    },
+    {
+        "name":  "THE NIGHTS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_NIGHTS"
+    },
+    {
+        "name":  "THE REAL SLIM SHADY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_REAL_SLIM_SHADY"
+    },
+    {
+        "name":  "THE SEARCH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_SEARCH"
+    },
+    {
+        "name":  "THE SLAUGHTER CONT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_SLAUGHTER_CONT"
+    },
+    {
+        "name":  "THE WINNER TAKES IT ALL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_WINNER_TAKES_IT_ALL"
+    },
+    {
+        "name":  "THE WORLD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_WORLD"
+    },
+    {
+        "name":  "THE WORLD REVOLVING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THE_WORLD_REVOLVING"
+    },
+    {
+        "name":  "THICK OF IT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THICK_OF_IT"
+    },
+    {
+        "name":  "THIS IS HALLOWEEN",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THIS_IS_HALLOWEEN"
+    },
+    {
+        "name":  "THIS IS HOME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THIS_IS_HOME"
+    },
+    {
+        "name":  "THIS IS WHAT FALLING IN LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THIS_IS_WHAT_FALLING_IN_LOVE"
+    },
+    {
+        "name":  "THIS IS WHAT HEARTBREAK",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THIS_IS_WHAT_HEARTBREAK"
+    },
+    {
+        "name":  "THIS IS WHAT SPACE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THIS_IS_WHAT_SPACE"
+    },
+    {
+        "name":  "THIS IS WHAT WINTER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THIS_IS_WHAT_WINTER"
+    },
+    {
+        "name":  "THROUGH PATCHES OF VIOLET",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/THROUGH_PATCHES_OF_VIOLET"
+    },
+    {
+        "name":  "TICKING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TICKING"
+    },
+    {
+        "name":  "TIME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TIME"
+    },
+    {
+        "name":  "TIME BACK",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TIME_BACK"
+    },
+    {
+        "name":  "TIME FLOWS EVER ONWARD",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TIME_FLOWS_EVER_ONWARD"
+    },
+    {
+        "name":  "TIMELESS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TIMELESS"
+    },
+    {
+        "name":  "TORRENT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TORRENT"
+    },
+    {
+        "name":  "TOXIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TOXIC"
+    },
+    {
+        "name":  "TRANSCEDENTAL ETUDE 4",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TRANSCEDENTAL_ETUDE_4"
+    },
+    {
+        "name":  "TRAP R",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TRAP_R"
+    },
+    {
+        "name":  "TREACHERY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TREACHERY"
+    },
+    {
+        "name":  "TURKISH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/TURKISH"
+    },
+    {
+        "name":  "UNDERSTAND",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNDERSTAND"
+    },
+    {
+        "name":  "UNDERTALE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNDERTALE"
+    },
+    {
+        "name":  "UNDERWATER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNDERWATER"
+    },
+    {
+        "name":  "UNITY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNITY"
+    },
+    {
+        "name":  "UNRAVEL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNRAVEL"
+    },
+    {
+        "name":  "UNRAVEL EPIC",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNRAVEL_EPIC"
+    },
+    {
+        "name":  "UNSTOPPABLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNSTOPPABLE"
+    },
+    {
+        "name":  "UNTIL I FOUND YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNTIL_I_FOUND_YOU"
+    },
+    {
+        "name":  "UNTITLED",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UNTITLED"
+    },
+    {
+        "name":  "UWA SO TEMPERATE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/UWA_SO_TEMPERATE"
+    },
+    {
+        "name":  "VAMPIRE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/VAMPIRE"
+    },
+    {
+        "name":  "VAN GOGH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/VAN_GOGH"
+    },
+    {
+        "name":  "VIENNA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/VIENNA"
+    },
+    {
+        "name":  "VIVA LA VIDA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/VIVA_LA_VIDA"
+    },
+    {
+        "name":  "VOILA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/VOILA"
+    },
+    {
+        "name":  "WAITING FOR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WAITING_FOR"
+    },
+    {
+        "name":  "WAKE ME",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WAKE_ME"
+    },
+    {
+        "name":  "WALTZ IN C MINOR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WALTZ_IN_C_MINOR"
+    },
+    {
+        "name":  "WASHING",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WASHING"
+    },
+    {
+        "name":  "WATERFALL",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WATERFALL"
+    },
+    {
+        "name":  "WE ARE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WE_ARE"
+    },
+    {
+        "name":  "WE ARE NUMBER ON",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WE_ARE_NUMBER_ON"
+    },
+    {
+        "name":  "WE DONT",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WE_DONT"
+    },
+    {
+        "name":  "WE NOT LIKE U",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WE_NOT_LIKE_U"
+    },
+    {
+        "name":  "WE WERE ANGELS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WE_WERE_ANGELS"
+    },
+    {
+        "name":  "WE WISH YOU A MERRY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WE_WISH_YOU_A_MERRY"
+    },
+    {
+        "name":  "WEDDING MARCH",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WEDDING_MARCH"
+    },
+    {
+        "name":  "WET HANDS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WET_HANDS"
+    },
+    {
+        "name":  "WHAT IS LOVE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHAT_IS_LOVE"
+    },
+    {
+        "name":  "WHAT THE FUCKK",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHAT_THE_FUCKK"
+    },
+    {
+        "name":  "WHAT WAS I MADE FOR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHAT_WAS_I_MADE_FOR"
+    },
+    {
+        "name":  "WHEN I MET YOU",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHEN_I_MET_YOU"
+    },
+    {
+        "name":  "WHERE OUR BLUE IS",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHERE_OUR_BLUE_IS"
+    },
+    {
+        "name":  "WHERE WE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHERE_WE"
+    },
+    {
+        "name":  "WHY DID I SAY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WHY_DID_I_SAY"
+    },
+    {
+        "name":  "WIEGE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WIEGE"
+    },
+    {
+        "name":  "WII SPORTS TITLE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WII_SPORTS_TITLE"
+    },
+    {
+        "name":  "WINTER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WINTER"
+    },
+    {
+        "name":  "WINTER WIND",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WINTER_WIND"
+    },
+    {
+        "name":  "WORLDS END",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/WORLDS_END"
+    },
+    {
+        "name":  "XO TOUR",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/XO_TOUR"
+    },
+    {
+        "name":  "YLANG YLANG",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YLANG_YLANG"
+    },
+    {
+        "name":  "YOUNG GIRL A",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YOUNG_GIRL_A"
+    },
+    {
+        "name":  "YOUNG GIRL A 2",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YOUNG_GIRL_A_2"
+    },
+    {
+        "name":  "YOUR GAZE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YOUR_GAZE"
+    },
+    {
+        "name":  "YOUR POWER",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YOUR_POWER"
+    },
+    {
+        "name":  "YOUR REALITY",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YOUR_REALITY"
+    },
+    {
+        "name":  "YUUSHA",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/YUUSHA"
+    },
+    {
+        "name":  "ZOMBIE",
+        "bpm":  120,
+        "url":  "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/refs/heads/main/SONGS/6/ZOMBIE"
+    }
 ]
