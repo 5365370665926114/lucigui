@@ -2068,5 +2068,30 @@
         "name": "ZOMBIE",
         "bpm": 164,
         "url": "https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/SONGS/ZOMBIE"
+    },
+    {
+        "name": "Depois do Universo",
+        "bpm": 62,
+        "url": "https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/SONGS/DEPOIS_DO_UNIVERSO"
+    },
+    {
+        "name": "Barões da Pisadinha",
+        "bpm": 85,
+        "url": "https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/SONGS/baraodapisadinha"
+    },
+    {
+        "name": "Lembre de mim",
+        "bpm": 148,
+        "url": "https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/SONGS/lembre_de_mim"
+    },
+    {
+        "name": "The experience insterestellar",
+        "bpm": 100,
+        "url": "https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/SONGS/the_interetellar_experience"
+    },
+     {
+        "name": "The Walking Dead",
+        "bpm": 195,
+        "url": "https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/SONGS/the_walking_dead"
     }
 ]
