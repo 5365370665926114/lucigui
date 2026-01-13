@@ -7,7 +7,6 @@
 
 bpm = 110
 
-loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/hellohellohell012321/TALENTLESS@main/loader_main.lua", true))()
 
 keypress("s", x, bpm)
 rest(1.5, bpm)
