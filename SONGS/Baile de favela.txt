@@ -7,7 +7,6 @@
 
 bpm = 120
 
-loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/hellohellohell012321/TALENTLESS@main/loader_main.lua", true))()
 
 rest(1, bpm)
 keypress("y", x, bpm)
@@ -289,5 +288,6 @@ rest(0.5, bpm)
 keypress("f", x, bpm)
 rest(0.5, bpm)
 keypress("d", x, bpm)
+
 
 finishedSong()
