@@ -6,8 +6,7 @@
 -- Midi Spoofer: OFF --
 
 bpm = 151
-
-loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/hellohellohell012321/TALENTLESS@main/loader_main.lua", true))()
+
 
 keypress("7", x, bpm)
 keypress("T", x, bpm)
