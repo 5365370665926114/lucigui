@@ -7,7 +7,7 @@
 
 bpm = 160
 
-loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/hellohellohell012321/TALENTLESS@main/loader_main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/5365370665926114/lucigui/refs/heads/main/loader_main.lua", true))()
 
 keypress("d", x, bpm)
 keypress("i", x, bpm)
